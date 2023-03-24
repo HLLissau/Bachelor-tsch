@@ -243,6 +243,7 @@ rpl_get_leaf_only(void)
   return rpl_leaf_only;
 }
 /*---------------------------------------------------------------------------*/
+/*
 const struct routing_driver rpl_lite_driver = {
   "RPL Lite",
   init,
@@ -266,6 +267,36 @@ const struct routing_driver rpl_lite_driver = {
   drop_route,
   rpl_get_leaf_only,
 };
+*/
 /*---------------------------------------------------------------------------*/
 
+/*---------------------------------------------------------------------------*/
+const struct routing_driver rpl_lite_driver_ext = {
+  "RPL Lite + movable node extension",
+  init,
+  rpl_dag_root_set_prefix,
+  rpl_dag_root_start,
+  rpl_dag_root_is_root,
+  rpl_dag_get_root_ipaddr,
+  get_sr_node_ipaddr,
+  rpl_dag_poison_and_leave,
+  rpl_has_joined,
+  rpl_is_reachable,
+  rpl_global_repair,
+  rpl_local_repair,
+  rpl_activate_relay,
+  rpl_ext_header_remove,
+  rpl_ext_header_update,
+  rpl_ext_header_hbh_update,
+  rpl_ext_header_srh_update,
+  rpl_ext_header_srh_get_next_hop,
+  rpl_link_callback,
+  neighbor_state_changed,
+  drop_route,
+  rpl_get_leaf_only,
+};
+/*---------------------------------------------------------------------------*/
+
+
 /** @}*/
+

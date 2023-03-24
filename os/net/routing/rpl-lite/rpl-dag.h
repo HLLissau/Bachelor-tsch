@@ -96,6 +96,13 @@ void rpl_global_repair(const char *str);
  * \param str A textual description of the cause for triggering a repair
 */
 void rpl_local_repair(const char *str);
+/**
+ * Triggers a RPL relay 
+ *
+ * \param str A textual description of the cause for triggering a relay
+*/
+void rpl_activate_relay(const char *str);
+
 
 /**
  * Tells whether a given global IPv6 address is in our current DAG
@@ -195,3 +202,4 @@ void rpl_dag_init(void);
  /** @} */
 
 #endif /* RPL_DAG_H */
+

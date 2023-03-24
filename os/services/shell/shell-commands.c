@@ -466,6 +466,18 @@ PT_THREAD(cmd_rpl_local_repair(struct pt *pt, shell_output_func output, char *ar
 
   PT_END(pt);
 }
+/*---------------------------------------------------------------------------*/
+static
+PT_THREAD(cmd_rpl_activate_relay(struct pt *pt, shell_output_func output, char *args))
+{
+  PT_BEGIN(pt);
+
+  SHELL_OUTPUT(output, "Triggering relay rutine\n");
+  NETSTACK_ROUTING.activate_relay("Shell");
+
+  PT_END(pt);
+}
+
 #endif /* UIP_CONF_IPV6_RPL */
 /*---------------------------------------------------------------------------*/
 static
@@ -741,7 +753,7 @@ http_callback(struct http_socket *s, void *ptr,
 {
   if(e == HTTP_SOCKET_ERR) {
     printf("HTTP socket error\n");
-  } else if(e == HTTP_SOCKET_TIMEDOUT) {
+  } else if(e == HTTP_SOCKET_TIMEDOUT) {local_repair
     printf("HTTP socket error: timed out\n");
   } else if(e == HTTP_SOCKET_ABORTED) {
     printf("HTTP socket error: aborted\n");
@@ -996,6 +1008,9 @@ const struct shell_command_t builtin_shell_commands[] = {
 #if UIP_CONF_IPV6_RPL
   { "rpl-set-root",         cmd_rpl_set_root,         "'> rpl-set-root 0/1 [prefix]': Sets node as root (1) or not (0). A /64 prefix can be optionally specified." },
   { "rpl-local-repair",     cmd_rpl_local_repair,     "'> rpl-local-repair': Triggers a RPL local repair" },
+  { "rpl-activate-relay",     cmd_rpl_activate_relay,     "'> rpl-activate-relay': Triggers a RPL relay node check" },
+
+
 #if ROUTING_CONF_RPL_LITE
   { "rpl-refresh-routes",   cmd_rpl_refresh_routes,   "'> rpl-refresh-routes': Refreshes all routes through a DTSN increment" },
   { "rpl-status",           cmd_rpl_status,           "'> rpl-status': Shows a summary of the current RPL state" },
@@ -1023,3 +1038,4 @@ static struct shell_command_set_t builtin_shell_command_set = {
   .commands = builtin_shell_commands,
 };
 /** @} */
+

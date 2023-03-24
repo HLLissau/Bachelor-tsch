@@ -251,6 +251,35 @@ rpl_local_repair(const char *str)
   }
 }
 /*---------------------------------------------------------------------------*/
+void
+rpl_activate_relay(const char *str)
+{
+
+  LOG_WARN("Activate relay (%s)\n", str);
+
+  rpl_nbr_t *old_parent = curr_instance.dag.preferred_parent;
+  char buf[120];
+  rpl_neighbor_snprint(buf, sizeof(buf), old_parent);
+  LOG_WARN("parent: %s\n", rpl_parent_get_ipaddr());
+
+  rpl_nbr_t *nbr;
+  //saving old parent and looking for new one
+  nbr = nbr_table_head(rpl_neighbors);
+  while (nbr !=NULL){
+    char buf[120];
+    rpl_neighbor_snprint(buf, sizeof(buf), nbr);
+    LOG_WARN("nbr: %s\n", buf);
+    if (nbr!=old_parent) {
+      curr_instance.dag.preferred_parent=nbr;
+      break;
+    }
+
+    nbr = nbr_table_next(rpl_neighbors, nbr);
+  
+  }
+  
+}
+/*---------------------------------------------------------------------------*/
 int
 rpl_dag_ready_to_advertise(void)
 {
@@ -765,3 +794,4 @@ rpl_dag_init(void)
 }
 /*---------------------------------------------------------------------------*/
 /** @} */
+
