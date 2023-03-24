@@ -5,7 +5,7 @@
 #include "net/ipv6/simple-udp.h"
 #include <stdint.h>
 #include <inttypes.h>
-
+// extensions
 #include "sys/log.h"
 #define LOG_MODULE "App"
 #define LOG_LEVEL LOG_LEVEL_INFO
@@ -40,13 +40,6 @@ udp_rx_callback(struct simple_udp_connection *c,
 #endif
   LOG_INFO_("\n");
   rx_count++;
-}
-static void extension2(){
-
-  //Test if we can relay
-  NETSTACK_ROUTING.activate_relay("Client from function");
-  
-  
 }
 /*---------------------------------------------------------------------------*/
 PROCESS_THREAD(udp_client_process, ev, data)
@@ -83,8 +76,6 @@ PROCESS_THREAD(udp_client_process, ev, data)
       snprintf(str, sizeof(str), "hello %" PRIu32 "", tx_count);
       simple_udp_sendto(&udp_conn, str, strlen(str), &dest_ipaddr);
       tx_count++;
-
-      extension2();
     } else {
       LOG_INFO("Not reachable yet\n");
       if(tx_count > 0) {
