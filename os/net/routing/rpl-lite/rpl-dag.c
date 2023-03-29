@@ -261,13 +261,15 @@ rpl_activate_relay(const char *str)
   LOG_WARN("prefered parent: %s with RSSI: %d \n", buf,(rpl_neighbor_get_link_stats(old_parent)->rssi-74));
   rpl_nbr_t *nbr;
   nbr = nbr_table_head(rpl_neighbors);
-  while (nbr !=NULL && nbr !=old_parent){
-    rpl_neighbor_snprint(buf, sizeof(buf), nbr);
-    LOG_WARN("alternative parent found: %s with RSSI: %d \n", buf,(rpl_neighbor_get_link_stats(nbr)->rssi-74));
-    if (nbr!=old_parent) {
-      LOG_WARN("Changing nbr to: %s \n",buf);
-      rpl_neighbor_set_preferred_parent(nbr); //setting new parrent
-      break;
+  while (nbr !=NULL ){
+    if (nbr !=old_parent){ /* Don't compare with current parent */
+      rpl_neighbor_snprint(buf, sizeof(buf), nbr);
+      LOG_WARN("alternative parent found: %s with RSSI: %d \n", buf,(rpl_neighbor_get_link_stats(nbr)->rssi-74));
+      if (nbr!=old_parent) { /*Best neighbour set to new parent */
+        LOG_WARN("Changing nbr to: %s \n",buf);
+        rpl_neighbor_set_preferred_parent(nbr); //setting new parrent
+        break;
+      }
     }
     nbr = nbr_table_next(rpl_neighbors, nbr);
   }
