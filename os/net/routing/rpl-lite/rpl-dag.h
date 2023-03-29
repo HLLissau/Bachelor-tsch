@@ -202,4 +202,3 @@ void rpl_dag_init(void);
  /** @} */
 
 #endif /* RPL_DAG_H */
-

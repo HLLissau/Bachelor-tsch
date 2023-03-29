@@ -299,4 +299,3 @@ const struct routing_driver rpl_lite_driver_ext = {
 
 
 /** @}*/
-

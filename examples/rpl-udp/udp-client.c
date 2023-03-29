@@ -41,13 +41,20 @@ udp_rx_callback(struct simple_udp_connection *c,
   LOG_INFO_("\n");
   rx_count++;
 }
+/*
 static void extension2(){
 
   //Test if we can relay
   NETSTACK_ROUTING.activate_relay("Client from function");
-  
-  
 }
+*/
+/*
+static get_RSSI_from_radio(){
+  int16_t rssi;
+  NETSTACK_RADIO.get_value(RADIO_PARAM_RSSI, &rssi);
+  LOG_INFO("Radio RSSI: %d\n",rssi);
+}
+*/
 /*---------------------------------------------------------------------------*/
 PROCESS_THREAD(udp_client_process, ev, data)
 {
@@ -56,7 +63,6 @@ PROCESS_THREAD(udp_client_process, ev, data)
   uip_ipaddr_t dest_ipaddr;
   static uint32_t tx_count;
   static uint32_t missed_tx_count;
-
   PROCESS_BEGIN();
 
   /* Initialize UDP connection */
@@ -65,6 +71,8 @@ PROCESS_THREAD(udp_client_process, ev, data)
 
   etimer_set(&periodic_timer, random_rand() % SEND_INTERVAL);
   while(1) {
+    
+
     PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&periodic_timer));
 
     if(NETSTACK_ROUTING.node_is_reachable() &&
@@ -77,14 +85,14 @@ PROCESS_THREAD(udp_client_process, ev, data)
       }
 
       /* Send to DAG root */
-      LOG_INFO("Sending request %"PRIu32" to ", tx_count);
+      LOG_INFO("(client) Sending request %"PRIu32" to ", tx_count);
       LOG_INFO_6ADDR(&dest_ipaddr);
       LOG_INFO_("\n");
-      snprintf(str, sizeof(str), "hello %" PRIu32 "", tx_count);
+      snprintf(str, sizeof(str), "(client) hello %" PRIu32 "", tx_count);
       simple_udp_sendto(&udp_conn, str, strlen(str), &dest_ipaddr);
       tx_count++;
-
-      extension2();
+      // if (tx_count%10==0)  extension2();
+     // if (tx_count%10==1) get_RSSI_from_radio();
     } else {
       LOG_INFO("Not reachable yet\n");
       if(tx_count > 0) {

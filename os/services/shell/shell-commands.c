@@ -1038,4 +1038,3 @@ static struct shell_command_set_t builtin_shell_command_set = {
   .commands = builtin_shell_commands,
 };
 /** @} */
-

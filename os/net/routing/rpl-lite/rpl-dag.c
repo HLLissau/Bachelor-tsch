@@ -260,24 +260,38 @@ rpl_activate_relay(const char *str)
   rpl_nbr_t *old_parent = curr_instance.dag.preferred_parent;
   char buf[120];
   rpl_neighbor_snprint(buf, sizeof(buf), old_parent);
-  LOG_WARN("parent: %s\n", rpl_parent_get_ipaddr());
-
+  LOG_WARN("prefered parent: %s \n", buf);
+  //LOG_WARN("1 is it current parent?: %d \n", rpl_neighbor_is_parent(old_parent));
+ 
   rpl_nbr_t *nbr;
   //saving old parent and looking for new one
+  //nbr_table_lock(); //locking nbr table
   nbr = nbr_table_head(rpl_neighbors);
+   
   while (nbr !=NULL){
-    char buf[120];
-    rpl_neighbor_snprint(buf, sizeof(buf), nbr);
-    LOG_WARN("nbr: %s\n", buf);
+        rpl_neighbor_snprint(buf, sizeof(buf), nbr);
+    LOG_WARN("nbr: %s , ", buf);
+    LOG_WARN("RSSI: %d \n",(rpl_neighbor_get_link_stats(nbr)->rssi-74));
+    LOG_WARN("2 is it current parent?: %d\n", rpl_neighbor_is_parent(nbr));
     if (nbr!=old_parent) {
-      curr_instance.dag.preferred_parent=nbr;
+      LOG_WARN("Changing nbr \n");
+      rpl_neighbor_remove_all(); //????
+      rpl_neighbor_set_preferred_parent(nbr);
+
       break;
     }
 
     nbr = nbr_table_next(rpl_neighbors, nbr);
   
   }
+  //nbr_table_unlock();
+  rpl_neighbor_snprint(buf, sizeof(buf), nbr);
+  LOG_WARN("3 is it current parent ?: %d , %s\n", rpl_neighbor_is_parent(nbr),buf);
+  //changing parrent to the new parrent
+  //rpl_dag_update_state(void);
   
+  //rpl_neighbor_set_preferred_parent(rpl_nbr_t *nbr);
+
 }
 /*---------------------------------------------------------------------------*/
 int
@@ -794,4 +808,3 @@ rpl_dag_init(void)
 }
 /*---------------------------------------------------------------------------*/
 /** @} */
-
