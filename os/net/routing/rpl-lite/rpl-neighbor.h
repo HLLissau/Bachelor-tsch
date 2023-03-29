@@ -172,6 +172,18 @@ int rpl_neighbor_count(void);
 */
 void rpl_neighbor_print_list(const char *str);
 
+
+
+
+/**
+ * remove nbr from the RPL neighbor table
+*/
+void remove_neighbor_ext(rpl_nbr_t *nbr);
+
+
+
+
+
 /**
  * Empty the RPL neighbor table
 */

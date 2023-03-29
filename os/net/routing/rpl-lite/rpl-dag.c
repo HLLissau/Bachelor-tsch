@@ -275,8 +275,9 @@ rpl_activate_relay(const char *str)
     LOG_WARN("2 is it current parent?: %d\n", rpl_neighbor_is_parent(nbr));
     if (nbr!=old_parent) {
       LOG_WARN("Changing nbr \n");
-      rpl_neighbor_remove_all(); //????
-      rpl_neighbor_set_preferred_parent(nbr);
+      //rpl_neighbor_remove_all(); //????
+      remove_neighbor_ext(old_parent); // removing old parrent to force swap
+      rpl_neighbor_set_preferred_parent(nbr); //setting new parrent
 
       break;
     }

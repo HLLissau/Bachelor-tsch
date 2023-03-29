@@ -444,3 +444,24 @@ rpl_neighbor_init(void)
   nbr_table_register(rpl_neighbors, (nbr_table_callback *)remove_neighbor);
 }
 /** @} */
+
+
+/*---------------------------------------------------------------------------*/
+void
+remove_neighbor_ext(rpl_nbr_t *nbr)
+{
+  /* Make sure we don't point to a removed neighbor. Note that we do not need
+  to worry about preferred_parent here, as it is locked in the the table
+  and will never be removed by external modules. */
+#if RPL_WITH_PROBING
+  if(nbr == curr_instance.dag.urgent_probing_target) {
+    curr_instance.dag.urgent_probing_target = NULL;
+  }
+#endif
+
+  if(nbr == curr_instance.dag.unicast_dio_target) {
+    curr_instance.dag.unicast_dio_target = NULL;
+  }
+  nbr_table_remove(rpl_neighbors, nbr);
+  rpl_timers_schedule_state_update(); /* Updating from here is unsafe; postpone */
+}
