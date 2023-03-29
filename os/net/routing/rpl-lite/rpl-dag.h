@@ -97,7 +97,7 @@ void rpl_global_repair(const char *str);
 */
 void rpl_local_repair(const char *str);
 /**
- * Triggers a RPL relay 
+ * Triggers a RPL relay if a suitable is found from nbr table
  *
  * \param str A textual description of the cause for triggering a relay
 */
