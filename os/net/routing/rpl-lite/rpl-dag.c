@@ -264,13 +264,22 @@ rpl_local_repair(const char *str)
 void
 rpl_activate_relay(const char *str)
 {
+     
   LOG_WARN("Activate relay (%s)\n", str);
   LOG_WARN("Network status: %d \n", (rpl_get_any_dag()->rank==ROOT_RANK));
   rpl_nbr_t *old_parent = curr_instance.dag.preferred_parent;
+  int16_t parent_rssi= rpl_neighbor_get_link_stats(old_parent)->rssi;
+  if (!(parent_rssi< -60) ) {
+    LOG_WARN("Signal strengh is %d, no need to switch \n",parent_rssi);
+    return;
+  }
+  LOG_WARN("Signal strengh is %d, switching to relay \n",parent_rssi);
+  
+
   char buf[120];
   rpl_neighbor_snprint(buf, sizeof(buf), old_parent);
   LOG_WARN("prefered parent: %s \n with RSSI: %d \n with rank: %d \n acceptable: %d \n, NUD: %d  \n",
-             buf,rpl_neighbor_get_link_stats(old_parent)->rssi,old_parent->rank,rpl_neighbor_is_acceptable_parent(old_parent),(rpl_get_ds6_nbr(old_parent)==NULL));
+             buf,parent_rssi,old_parent->rank,rpl_neighbor_is_acceptable_parent(old_parent),(rpl_get_ds6_nbr(old_parent)==NULL));
   rpl_nbr_t *nbr;
   if ((rpl_get_ds6_nbr(old_parent)==NULL)) LOG_WARN("NUD is NULL!!!!!!");
   nbr = nbr_table_head(rpl_neighbors);

@@ -67,7 +67,11 @@ udp_rx_callback(struct simple_udp_connection *c,
 PROCESS_THREAD(udp_server_process, ev, data)
 {
   PROCESS_BEGIN();
-
+  /* Set the transmission power level to -12 dBm */
+  radio_value_t power_level;
+  NETSTACK_RADIO.get_value(RADIO_PARAM_TXPOWER, &power_level);
+  radio_value_t new_power_level=power_level-(radio_value_t) 24;
+  NETSTACK_RADIO.set_value(RADIO_PARAM_TXPOWER, new_power_level);
   /* Initialize DAG root */
   NETSTACK_ROUTING.root_start();
 

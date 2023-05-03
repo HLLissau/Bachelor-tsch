@@ -14,7 +14,7 @@
 #define UDP_CLIENT_PORT	8765
 #define UDP_SERVER_PORT	5678
 
-#define SEND_INTERVAL		  (5*CLOCK_SECOND)
+#define SEND_INTERVAL		  (10 * CLOCK_SECOND)
 
 static struct simple_udp_connection udp_conn;
 static uint32_t rx_count = 0;
@@ -42,6 +42,19 @@ udp_rx_callback(struct simple_udp_connection *c,
   rx_count++;
 }
 
+static void automatic_relay_switch(){
+
+  //Test if we can relay
+  NETSTACK_ROUTING.activate_relay("Client from function");
+}
+
+/*
+static get_RSSI_from_radio(){
+  int16_t rssi;
+  NETSTACK_RADIO.get_value(RADIO_PARAM_RSSI, &rssi);
+  LOG_INFO("Radio RSSI: %d\n",rssi);
+}
+*/
 /*---------------------------------------------------------------------------*/
 PROCESS_THREAD(udp_client_process, ev, data)
 {
@@ -57,6 +70,12 @@ PROCESS_THREAD(udp_client_process, ev, data)
                       UDP_SERVER_PORT, udp_rx_callback);
 
   etimer_set(&periodic_timer, random_rand() % SEND_INTERVAL);
+
+  /* Set the transmission power level to -12 dBm */
+  radio_value_t power_level;
+  NETSTACK_RADIO.get_value(RADIO_PARAM_TXPOWER, &power_level);
+  radio_value_t new_power_level=power_level-(radio_value_t) 24;
+  NETSTACK_RADIO.set_value(RADIO_PARAM_TXPOWER, new_power_level);
   while(1) {
     
 
@@ -78,17 +97,7 @@ PROCESS_THREAD(udp_client_process, ev, data)
       snprintf(str, sizeof(str), "(client) hello %" PRIu32 "", tx_count);
       simple_udp_sendto(&udp_conn, str, strlen(str), &dest_ipaddr);
       tx_count++;
-      /* Automatic hopping
-      if (tx_count%20==0) {
-        static struct etimer delay_timer;
-        etimer_set(&delay_timer, 5 * CLOCK_SECOND);
-        PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&delay_timer));
-        extension2();
-        etimer_set(&delay_timer, 5 * CLOCK_SECOND);
-        PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&delay_timer));
-        LOG_INFO("Switching complete, continuing program \n");
-      }
-      */
+      automatic_relay_switch();
      // if (tx_count%10==1) get_RSSI_from_radio();
     } else {
       LOG_INFO("Not reachable yet\n");
@@ -96,6 +105,10 @@ PROCESS_THREAD(udp_client_process, ev, data)
         missed_tx_count++;
       }
     }
+    //get the current value of the radio strength
+    radio_value_t power_level;
+    NETSTACK_RADIO.get_value(RADIO_PARAM_TXPOWER, &power_level);
+    LOG_INFO("Radio signal strength: %d \n",power_level);
 
     /* Add some jitter */
     etimer_set(&periodic_timer, SEND_INTERVAL
