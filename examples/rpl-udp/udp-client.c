@@ -14,7 +14,7 @@
 #define UDP_CLIENT_PORT	8765
 #define UDP_SERVER_PORT	5678
 
-#define SEND_INTERVAL		  (10 * CLOCK_SECOND)
+#define SEND_INTERVAL		  (5*CLOCK_SECOND)
 
 static struct simple_udp_connection udp_conn;
 static uint32_t rx_count = 0;
@@ -44,9 +44,8 @@ udp_rx_callback(struct simple_udp_connection *c,
 /*
 static void extension2(){
 
-  //Test if we can relay
   NETSTACK_ROUTING.activate_relay("Client from function");
-}
+  }
 */
 /*
 static get_RSSI_from_radio(){
@@ -91,7 +90,17 @@ PROCESS_THREAD(udp_client_process, ev, data)
       snprintf(str, sizeof(str), "(client) hello %" PRIu32 "", tx_count);
       simple_udp_sendto(&udp_conn, str, strlen(str), &dest_ipaddr);
       tx_count++;
-      // if (tx_count%10==0)  extension2();
+      /* Automatic hopping
+      if (tx_count%20==0) {
+        static struct etimer delay_timer;
+        etimer_set(&delay_timer, 5 * CLOCK_SECOND);
+        PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&delay_timer));
+        extension2();
+        etimer_set(&delay_timer, 5 * CLOCK_SECOND);
+        PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&delay_timer));
+        LOG_INFO("Switching complete, continuing program \n");
+      }
+      */
      // if (tx_count%10==1) get_RSSI_from_radio();
     } else {
       LOG_INFO("Not reachable yet\n");

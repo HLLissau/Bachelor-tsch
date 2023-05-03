@@ -46,7 +46,17 @@
 #include "net/ipv6/uip-sr.h"
 #include "net/nbr-table.h"
 #include "net/link-stats.h"
-
+#include "net/routing/rpl-lite/rpl-neighbor.h"
+static uip_ds6_nbr_t *
+rpl_get_ds6_nbr(rpl_nbr_t *nbr)
+{
+  const uip_lladdr_t *lladdr = (const uip_lladdr_t *)rpl_neighbor_get_lladdr(nbr);
+  if(lladdr != NULL) {
+    return uip_ds6_nbr_ll_lookup(lladdr);
+  } else {
+    return NULL;
+  }
+}
 /* Log configuration */
 #include "sys/log.h"
 #define LOG_MODULE "RPL"
@@ -255,16 +265,21 @@ void
 rpl_activate_relay(const char *str)
 {
   LOG_WARN("Activate relay (%s)\n", str);
+  LOG_WARN("Network status: %d \n", (rpl_get_any_dag()->rank==ROOT_RANK));
   rpl_nbr_t *old_parent = curr_instance.dag.preferred_parent;
   char buf[120];
   rpl_neighbor_snprint(buf, sizeof(buf), old_parent);
-  LOG_WARN("prefered parent: %s with RSSI: %d \n", buf,(rpl_neighbor_get_link_stats(old_parent)->rssi-74));
+  LOG_WARN("prefered parent: %s \n with RSSI: %d \n with rank: %d \n acceptable: %d \n, NUD: %d  \n",
+             buf,rpl_neighbor_get_link_stats(old_parent)->rssi,old_parent->rank,rpl_neighbor_is_acceptable_parent(old_parent),(rpl_get_ds6_nbr(old_parent)==NULL));
   rpl_nbr_t *nbr;
+  if ((rpl_get_ds6_nbr(old_parent)==NULL)) LOG_WARN("NUD is NULL!!!!!!");
   nbr = nbr_table_head(rpl_neighbors);
   while (nbr !=NULL ){
     if (nbr !=old_parent){ /* Don't compare with current parent */
       rpl_neighbor_snprint(buf, sizeof(buf), nbr);
-      LOG_WARN("alternative parent found: %s with RSSI: %d \n", buf,(rpl_neighbor_get_link_stats(nbr)->rssi-74));
+      LOG_WARN("alternative parent found: %s \nwith RSSI: %d \n with rank: %d \n acceptable?: %d \n,NUD: %d \n"
+      , buf,            (rpl_neighbor_get_link_stats(nbr)->rssi),nbr->rank, rpl_neighbor_is_acceptable_parent(nbr),(rpl_get_ds6_nbr(nbr)==NULL));
+        if ((rpl_get_ds6_nbr(nbr)==NULL)) LOG_WARN("NUD is NULL!!!!!!");
       if (nbr!=old_parent) { /*Best neighbour set to new parent */
         LOG_WARN("Changing nbr to: %s \n",buf);
         rpl_neighbor_set_preferred_parent(nbr); //setting new parrent
