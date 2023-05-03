@@ -41,19 +41,7 @@ udp_rx_callback(struct simple_udp_connection *c,
   LOG_INFO_("\n");
   rx_count++;
 }
-/*
-static void extension2(){
 
-  NETSTACK_ROUTING.activate_relay("Client from function");
-  }
-*/
-/*
-static get_RSSI_from_radio(){
-  int16_t rssi;
-  NETSTACK_RADIO.get_value(RADIO_PARAM_RSSI, &rssi);
-  LOG_INFO("Radio RSSI: %d\n",rssi);
-}
-*/
 /*---------------------------------------------------------------------------*/
 PROCESS_THREAD(udp_client_process, ev, data)
 {
