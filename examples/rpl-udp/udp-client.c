@@ -14,7 +14,7 @@
 #define UDP_CLIENT_PORT	8765
 #define UDP_SERVER_PORT	5678
 
-#define SEND_INTERVAL		  (10 * CLOCK_SECOND)
+#define SEND_INTERVAL		  (1 * CLOCK_SECOND)
 
 static struct simple_udp_connection udp_conn;
 static uint32_t rx_count = 0;
@@ -86,7 +86,7 @@ PROCESS_THREAD(udp_client_process, ev, data)
 
       /* Print statistics every 10th TX */
       if(tx_count % 10 == 0) {
-        LOG_INFO("Tx/Rx/MissedTx: %" PRIu32 "/%" PRIu32 "/%" PRIu32 "\n",
+        LOG_WARN("Tx/Rx/MissedTx: %" PRIu32 "/%" PRIu32 "/%" PRIu32 "\n",
                  tx_count, rx_count, missed_tx_count);
       }
 
@@ -108,7 +108,8 @@ PROCESS_THREAD(udp_client_process, ev, data)
     //get the current value of the radio strength
     radio_value_t power_level;
     NETSTACK_RADIO.get_value(RADIO_PARAM_TXPOWER, &power_level);
-    LOG_INFO("Radio signal strength: %d \n",power_level);
+    /*Print current value of radio signal strength*/
+    //LOG_INFO("Radio signal strength: %d \n",power_level);
 
     /* Add some jitter */
     etimer_set(&periodic_timer, SEND_INTERVAL
