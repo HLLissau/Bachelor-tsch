@@ -7,6 +7,13 @@
 #define LOG_CONF_LEVEL_FRAMER                      LOG_LEVEL_DBG
 */
 
+//Setting TSCH to connect faster
+#define TSCH_CONF_DEFAULT_HOPPING_SEQUENCE TSCH_HOPPING_SEQUENCE_2_2
+#define TSCH_CONF_EB_PERIOD (10 * CLOCK_SECOND)
+// IMPORTANT: Saving the day with the config parameter below!!
+#define TSCH_CONF_ASSOCIATION_POLL_FREQUENCY 1000
+
+
 #define LOG_CONF_LEVEL_RPL                         LOG_LEVEL_WARN
 #define LOG_CONF_LEVEL_TCPIP                       LOG_LEVEL_WARN
 #define LOG_CONF_LEVEL_IPV6                        LOG_LEVEL_WARN
