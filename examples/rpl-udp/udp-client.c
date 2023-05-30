@@ -14,6 +14,10 @@
 #define UDP_CLIENT_PORT	8765
 #define UDP_SERVER_PORT	5678
 
+//Define client to only be leaf
+// "if this is set, the node will join but only as a leaf, i.e., it will not send any DIO and will never be selected as parent"
+#define RPL_DEFAULT_LEAF_ONLY 1;
+
 #define SEND_INTERVAL		  (1 * CLOCK_SECOND)
 
 static struct simple_udp_connection udp_conn;
@@ -76,6 +80,7 @@ PROCESS_THREAD(udp_client_process, ev, data)
   NETSTACK_RADIO.get_value(RADIO_PARAM_TXPOWER, &power_level);
   radio_value_t new_power_level=power_level-(radio_value_t) 24;
   NETSTACK_RADIO.set_value(RADIO_PARAM_TXPOWER, new_power_level);
+ 
   while(1) {
     
 
