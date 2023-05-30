@@ -60,7 +60,8 @@ rpl_get_ds6_nbr(rpl_nbr_t *nbr) {
 #include "sys/log.h"
 #define LOG_MODULE "RPL"
 #define LOG_LEVEL LOG_LEVEL_RPL
-#define RELAY_DBM -70
+#define RELAY_WARNING RELAY_DBM + 15
+#define RELAY_DBM -60
 
 /*---------------------------------------------------------------------------*/
 extern rpl_of_t rpl_of0, rpl_mrhof;
@@ -239,47 +240,73 @@ void rpl_local_repair(const char *str) {
     }
 }
 /*---------------------------------------------------------------------------*/
-rpl_nbr_t *old_parent;
-bool relay_inactive = true;
+
 void rpl_activate_relay(const char *str) {
+    rpl_nbr_t *server_nbr=NULL;
+    bool relay_inactive;
     LOG_INFO("Activate relay (%s)\n", str);
-    // LOG_WARN("Network status: %d \n", (rpl_get_any_dag()->rank==ROOT_RANK));
     rpl_nbr_t *parent = curr_instance.dag.preferred_parent;
     int16_t parent_rssi = rpl_neighbor_get_link_stats(parent)->rssi;
+    if (parent == NULL) LOG_WARN("Server is NULL \n");
+
+    // Check if current parrent is dag root, if true this means relay is inactive.
+    if (parent->rank == 128) {
+        relay_inactive = 1;
+        server_nbr = parent;
+    } else {
+        relay_inactive = 0;
+        rpl_nbr_t *nbr;
+        //if ((rpl_get_ds6_nbr(parent) == NULL)) LOG_WARN("NUD is NULL!!!!!!");
+        nbr = nbr_table_head(rpl_neighbors);
+        while (nbr != NULL) {
+            if (nbr != parent) { /* Don't compare with current parent */
+                server_nbr = nbr;
+                break;
+            }
+            nbr = nbr_table_next(rpl_neighbors, nbr);
+        }
+    }
+    LOG_WARN("relay : %d,rank_server: %d \n", relay_inactive, parent->rank);
+
+    // LOG_WARN("relay : %d, parent: %s, parent ip: %s, root: %s,  \n", relay_inactive, buf,rpl_parent_get_ipaddr(parent),&curr_instance.dag.dag_id);
+    /*if (!relay_inactive) {
+        LOG_WARN("fixing bad relay flag caused by TSCH chaninging parent \n");
+
+        relay_inactive = true;
+        return;
+    }
+} else {
+    if (relay_inactive) {
+        LOG_WARN("fixing bad relay flag caused by TSCH chaninging parent \n");
+
+        relay_inactive = true;
+        return;
+    }*/
     if (!relay_inactive) {
-        int16_t parent_rssi = rpl_neighbor_get_link_stats(old_parent)->rssi;
-        LOG_INFO("Server Signal strengh is %d \n", parent_rssi);
-        if (!(parent_rssi < RELAY_DBM + 20 && !relay_inactive))  // we want connection to be in stable condition
+        int16_t server_rssi = rpl_neighbor_get_link_stats(server_nbr)->rssi;
+        LOG_WARN("Server Signal strengh is %d \n", server_rssi);
+        if ((server_rssi > RELAY_DBM + 5))  // we want connection to be in stable condition
         {
             LOG_WARN("switching back to Server \n");
-            rpl_neighbor_set_preferred_parent(old_parent);  // setting new parrent
-            curr_instance.dag.preferred_parent = old_parent;
-            relay_inactive = true;
-
-            return;
-        }
-        if (old_parent == parent) {  // catching case where we are not allowed to change parent due to timer
-            LOG_WARN("fixing bad relay flag caused by timer \n");
-
-            relay_inactive = true;
+            rpl_neighbor_set_preferred_parent(server_nbr);  // setting new parrent
+            // curr_instance.dag.preferred_parent = server_nbr;
             return;
         }
     }
 
-    if (!(parent_rssi < RELAY_DBM && relay_inactive)) {
+    if (parent_rssi > RELAY_DBM && relay_inactive) {
         LOG_INFO("Signal strengh is %d, no need to switch \n", parent_rssi);
         LOG_DBG("relay bool is %d \n", relay_inactive);
+        if (parent_rssi < RELAY_WARNING) LOG_WARN("Signal strengh is %d, Send Drone \n", parent_rssi);
 
         return;
     }
-    if (relay_inactive) {
+    if (relay_inactive && parent_rssi <= RELAY_DBM) {
         LOG_WARN("Signal strengh is %d, switching to relay \n", parent_rssi);
         if (rpl_neighbor_count() <= 1) {
             LOG_WARN("No alternative parent, keeping current parent \n");
             return;
         }
-        old_parent = parent;
-
         char buf[120];
         rpl_neighbor_snprint(buf, sizeof(buf), parent);
         LOG_WARN("prefered parent: %s \n with RSSI: %d \n with rank: %d \n acceptable: %d \n, NUD: %d  \n",
@@ -299,8 +326,8 @@ void rpl_activate_relay(const char *str) {
                 if (best_RSSI < nbr_RSSI) { /*Best neighbour set to new parent */
                     LOG_WARN("Changing parent to: %s \n", buf);
                     rpl_neighbor_set_preferred_parent(nbr);  // setting new parrent
-                    curr_instance.dag.preferred_parent = nbr;
-                    relay_inactive = false;
+                    //curr_instance.dag.preferred_parent = nbr;
+                    //relay_inactive = false;
                     break;
                 }
             }

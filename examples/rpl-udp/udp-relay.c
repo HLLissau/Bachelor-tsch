@@ -57,6 +57,15 @@ PROCESS_THREAD(udp_client_process, ev, data)
                       UDP_SERVER_PORT, udp_rx_callback);
 
   etimer_set(&periodic_timer, random_rand() % SEND_INTERVAL);
+
+
+
+  /* Set the transmission power level to -24 dBm */
+  radio_value_t power_level;
+  NETSTACK_RADIO.get_value(RADIO_PARAM_TXPOWER, &power_level);
+  radio_value_t new_power_level=power_level-(radio_value_t) 12;
+  NETSTACK_RADIO.set_value(RADIO_PARAM_TXPOWER, new_power_level);
+
   while(1) {
     PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&periodic_timer));
 

@@ -70,7 +70,7 @@ PROCESS_THREAD(udp_server_process, ev, data)
   /* Set the transmission power level to -12 dBm */
   radio_value_t power_level;
   NETSTACK_RADIO.get_value(RADIO_PARAM_TXPOWER, &power_level);
-  radio_value_t new_power_level=power_level-(radio_value_t) 24;
+  radio_value_t new_power_level=power_level-(radio_value_t) 12;
   NETSTACK_RADIO.set_value(RADIO_PARAM_TXPOWER, new_power_level);
   /* Initialize DAG root */
   NETSTACK_ROUTING.root_start();
