@@ -31,7 +31,7 @@
 #include "net/routing/routing.h"
 #include "net/netstack.h"
 #include "net/ipv6/simple-udp.h"
-
+#include "examples/rpl-udp/rpl_relay.h"
 #include "sys/log.h"
 #define LOG_MODULE "App"
 #define LOG_LEVEL LOG_LEVEL_INFO
@@ -70,7 +70,7 @@ PROCESS_THREAD(udp_server_process, ev, data)
   /* Set the transmission power level to -12 dBm */
   radio_value_t power_level;
   NETSTACK_RADIO.get_value(RADIO_PARAM_TXPOWER, &power_level);
-  radio_value_t new_power_level=power_level-(radio_value_t) 12;
+  radio_value_t new_power_level=power_level +(radio_value_t) RADIO_OFFSET;
   NETSTACK_RADIO.set_value(RADIO_PARAM_TXPOWER, new_power_level);
   /* Initialize DAG root */
   NETSTACK_ROUTING.root_start();
