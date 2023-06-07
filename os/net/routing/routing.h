@@ -189,7 +189,7 @@ struct routing_driver_old {
 };
 
 /**
- * The structure of a routing protocol driver.
+ * The structure of a routing protocol driver with relay extension.
  */
 struct routing_driver {
   char *name;
@@ -263,7 +263,7 @@ struct routing_driver {
    *
    * \param str A textual description of the cause for triggering the relay
   */
-  void (* activate_relay)(const char *str);
+  int (* activate_relay)(const char *str);
   /**
    * Removes all extension headers that pertain to the routing protocol.
    *
