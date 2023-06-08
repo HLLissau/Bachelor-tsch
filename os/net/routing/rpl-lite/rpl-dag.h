@@ -101,7 +101,7 @@ void rpl_local_repair(const char *str);
  *
  * \param str A textual description of the cause for triggering a relay
 */
-void rpl_activate_relay(const char *str);
+int rpl_dag_activate_relay(const char *str);
 
 
 /**
