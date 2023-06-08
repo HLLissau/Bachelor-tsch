@@ -44,17 +44,8 @@ udp_rx_callback(struct simple_udp_connection *c,
 }
 
 static int automatic_relay_switch() {
-    // Test if we can relay
     return NETSTACK_ROUTING.activate_relay("Client from function");
 }
-
-/*
-static get_RSSI_from_radio(){
-  int16_t rssi;
-  NETSTACK_RADIO.get_value(RADIO_PARAM_RSSI, &rssi);
-  LOG_INFO("Radio RSSI: %d\n",rssi);
-}
-*/
 /*---------------------------------------------------------------------------*/
 PROCESS_THREAD(udp_client_process, ev, data) {
     static struct etimer periodic_timer;
@@ -81,20 +72,11 @@ PROCESS_THREAD(udp_client_process, ev, data) {
 
         if (NETSTACK_ROUTING.node_is_reachable() &&
             NETSTACK_ROUTING.get_root_ipaddr(&dest_ipaddr)) {
-            /* Print statistics every 10th TX */
+            /* Print statistics every 10th TX (Changed to 1  ) */ 
             if (tx_count % 1 == 0) {
                 LOG_WARN("Tx/Rx/MissedTx: %" PRIu32 "/%" PRIu32 "/%" PRIu32 "\n",
                          tx_count, rx_count, missed_tx_count);
-                if (automatic_relay_switch()) {
-                    //if we switched we wait 10 seconds
-                    /*
-                    LOG_WARN("waiting since we changed parent\n");
-                    static struct etimer periodic_timer2;
-                    etimer_set(&periodic_timer2, random_rand() % 10 *SEND_INTERVAL);
-                    PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&periodic_timer2));
-                    LOG_WARN("Done  waiting\n");
-                    */
-                }
+                automatic_relay_switch()
             }
             /* Send to DAG root */
             LOG_INFO("(client) Sending request %" PRIu32 " to ", tx_count);
@@ -103,7 +85,6 @@ PROCESS_THREAD(udp_client_process, ev, data) {
             snprintf(str, sizeof(str), "(client) hello %" PRIu32 "", tx_count);
             simple_udp_sendto(&udp_conn, str, strlen(str), &dest_ipaddr);
             tx_count++;
-            // if (tx_count%10==1) get_RSSI_from_radio();
         } else {
             LOG_INFO("Not reachable yet\n");
             if (tx_count > 0) {
