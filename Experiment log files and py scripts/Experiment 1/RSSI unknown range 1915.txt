@@ -1,0 +1,677 @@
+using saved target 'cc26x0-cc13x0'
+rlwrap ../../tools/serial-io/serialdump -b115200 /dev/ttyACM0
+connecting to /dev/ttyACM0 [OK]
+[WARN: App       ] Tx/Rx/MissedTx: 3793/3765/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -85, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3793 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 3793' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 3794/3766/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -85, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3794 to fd00:[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 3821' from fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 3822' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 3823/3795/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -85, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3823 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 3823' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 3824/3796/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -85, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3824 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 3824' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 3825/3797/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -85, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3825 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 3825' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 3826/3798/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -85, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3826 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 3826' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 3827/3799/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -85, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3827 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 3827' from fd00::212:4b00:1204:cca2
+[WARN: TSCH      ] ! drop dup ll from 0012.4b00.1204.cca2 seqno 67
+[WARN: App       ] Tx/Rx/MissedTx: 3828/3800/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -85, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3828 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 3828' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 3829/3801/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -85, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3829 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 3830/3801/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -85, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3830 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 3829' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 3831/3802/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -85, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3831 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 3830' from fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 3831' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 3832/3804/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -85, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3832 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 3833/3804/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -85, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3833 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 3834/3804/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -86, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3834 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 3835/3804/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -86, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3835 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 3836/3804/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -86, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3836 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 3837/3804/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -86, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3837 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 3838/3804/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -86, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3838 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 3839/3804/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -86, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3839 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 3832' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 3840/3805/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -86, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3840 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[ERR : TSCH Queue] ! add packet failed: 0 #0x20002798 -1 #0x0 #0x0
+[ERR : TSCH      ] ! can't send packet to 0012.4b00.1204.cca2 with seqno 246, queue 7/8 7/8
+[WARN: App       ] Tx/Rx/MissedTx: 3841/3805/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -86, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3841 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[ERR : TSCH Queue] ! add packet failed: 0 #0x20002798 -1 #0x0 #0x0
+[ERR : TSCH      ] ! can't send packet to 0012.4b00.1204.cca2 with seqno 247, queue 7/8 7/8
+[WARN: App       ] Tx/Rx/MissedTx: 3842/3805/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -86, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3842 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[ERR : TSCH Queue] ! add packet failed: 0 #0x20002798 -1 #0x0 #0x0
+[ERR : TSCH      ] ! can't send packet to 0012.4b00.1204.cca2 with seqno 248, queue 7/8 7/8
+[WARN: App       ] Tx/Rx/MissedTx: 3843/3805/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -86, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3843 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 3844/3805/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -86, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3844 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[ERR : TSCH Queue] ! add packet failed: 0 #0x20002798 -1 #0x0 #0x0
+[ERR : TSCH      ] ! can't send packet to 0012.4b00.1204.cca2 with seqno 250, queue 7/8 7/8
+[WARN: TSCH      ] ! drop dup ll from 0012.4b00.1204.cca2 seqno 72
+[WARN: App       ] Tx/Rx/MissedTx: 3845/3805/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -86, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3845 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[ERR : TSCH Queue] ! add packet failed: 0 #0x20002798 -1 #0x0 #0x0
+[ERR : TSCH      ] ! can't send packet to 0012.4b00.1204.cca2 with seqno 251, queue 7/8 7/8
+[WARN: App       ] Tx/Rx/MissedTx: 3846/3805/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -86, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3846 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[ERR : TSCH Queue] ! add packet failed: 0 #0x20002798 -1 #0x0 #0x0
+[ERR : TSCH      ] ! can't send packet to 0012.4b00.1204.cca2 with seqno 252, queue 7/8 7/8
+[WARN: App       ] Tx/Rx/MissedTx: 3847/3805/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -86, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3847 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[ERR : TSCH Queue] ! add packet failed: 0 #0x20002798 -1 #0x0 #0x0
+[ERR : TSCH      ] ! can't send packet to 0012.4b00.1204.cca2 with seqno 253, queue 7/8 7/8
+[WARN: App       ] Tx/Rx/MissedTx: 3848/3805/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -86, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3848 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[ERR : TSCH Queue] ! add packet failed: 0 #0x20002798 -1 #0x0 #0x0
+[ERR : TSCH      ] ! can't send packet to 0012.4b00.1204.cca2 with seqno 254, queue 7/8 7/8
+[WARN: App       ] Tx/Rx/MissedTx: 3849/3805/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -86, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3849 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[ERR : TSCH Queue] ! add packet failed: 0 #0x20002798 -1 #0x0 #0x0
+[ERR : TSCH      ] ! can't send packet to 0012.4b00.1204.cca2 with seqno 255, queue 7/8 7/8
+[WARN: App       ] Tx/Rx/MissedTx: 3850/3805/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -86, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3850 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[ERR : TSCH Queue] ! add packet failed: 0 #0x20002798 -1 #0x0 #0x0
+[ERR : TSCH      ] ! can't send packet to 0012.4b00.1204.cca2 with seqno 0, queue 7/8 7/8
+[WARN: App       ] Tx/Rx/MissedTx: 3851/3805/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -86, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3851 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[ERR : TSCH Queue] ! add packet failed: 0 #0x20002798 -1 #0x0 #0x0
+[ERR : TSCH      ] ! can't send packet to 0012.4b00.1204.cca2 with seqno 1, queue 7/8 7/8
+[WARN: App       ] Tx/Rx/MissedTx: 3852/3805/141
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -86, switching to relay 
+[WARN: RPL       ] No alternative parent, keeping current parent 
+[INFO: App       ] (client) Sending request 3852 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[ERR : TSCH Queue] ! add packet failed: 0 #0x20002798 -1 #0x0 #0x0
+[ERR : TSCH      ] ! can't send packet to 0012.4b00.1204.cca2 with seqno 2, queue 7/8 7/8
+[INFO: IPv6 Route] Removing default
+[WARN: RPL       ] no parent, scheduling periodic DIS, will leave if no parent is found
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 3834' from fd00::212:4b00:1204:cca2
+[WARN: TSCH      ] ! drop dup ll from 0012.4b00.1204.cca2 seqno 73
+[INFO: App       ] Not reachable yet
+[WARN: TSCH      ] ! drop dup ll from 0012.4b00.1204.cca2 seqno 73
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: ICMPv6    ] Sending ICMPv6 packet to ff02::1a, type 155, code 0, len 2
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: ICMPv6    ] Sending ICMPv6 packet to ff02::1a, type 155, code 0, len 2
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: ICMPv6    ] Sending ICMPv6 packet to ff02::1a, type 155, code 0, len 2
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: IPv6      ] packet received from fe80::212:4b00:1204:cca2 to ff02::1a
+[INFO: IPv6      ] icmpv6 input length 116 type: 155 
+[WARN: TSCH      ] leaving the network, stats: tx 1121, rx 890, sync 884
+[WARN: RPL       ] local repair (TSCH leaving)
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: IPv6      ] packet received from fe80::212:4b00:1204:cca2 to ff02::1a
+[INFO: IPv6      ] icmpv6 input length 116 type: 155 
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: ICMPv6    ] Sending ICMPv6 packet to fe80::212:4b00:1204:cca2, type 155, code 1, len 72
+[INFO: App       ] Not reachable yet
+[INFO: IPv6 Route] Add default: adding default route to fe80::212:4b00:1204:cca2
+[WARN: RPL       ] found parent: fe80::212:4b00:1204:cca2, staying in DAG
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: ICMPv6    ] Sending ICMPv6 packet to fd00::212:4b00:1204:cca2, type 155, code 2, len 46
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: ICMPv6    ] Sending ICMPv6 packet to fd00::212:4b00:1204:cca2, type 155, code 2, len 46
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: IPv6 Route] Removing default
+[WARN: RPL       ] no parent, scheduling periodic DIS, will leave if no parent is found
+[INFO: App       ] Not reachable yet
+[WARN: RPL       ] rpl_icmp6_dao_output: no preferred parent, skip sending DAO
+[INFO: App       ] Not reachable yet
+[INFO: IPv6      ] packet received from fe80::212:4b00:1204:cca2 to ff02::1a
+[INFO: IPv6      ] icmpv6 input length 116 type: 155 
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[WARN: RPL       ] rpl_icmp6_dao_output: no preferred parent, skip sending DAO
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: ICMPv6    ] Sending ICMPv6 packet to ff02::1a, type 155, code 0, len 2
+[INFO: App       ] Not reachable yet
+[WARN: TSCH      ] not able to re-synchronize, received no EB from other neighbors
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[WARN: RPL       ] rpl_icmp6_dao_output: no preferred parent, skip sending DAO
+[WARN: RPL       ] local repair (DAO max rtx)
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: ICMPv6    ] Sending ICMPv6 packet to ff02::1a, type 155, code 0, len 2
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: ICMPv6    ] Sending ICMPv6 packet to ff02::1a, type 155, code 0, len 2
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: ICMPv6    ] Sending ICMPv6 packet to ff02::1a, type 155, code 0, len 2
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[WARN: TSCH      ] leaving the network, stats: tx 36, rx 5, sync 1
+[WARN: RPL       ] local repair (TSCH leaving)
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: ICMPv6    ] Sending ICMPv6 packet to ff02::1a, type 155, code 0, len 2
+[WARN: TSCH      ] Cannot compute max payload size: not associated
+[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: ICMPv6    ] Sending ICMPv6 packet to ff02::1a, type 155, code 0, len 2
+[WARN: TSCH      ] Cannot compute max payload size: not associated
+[WARN: 6LoWPAN   ] output: failed to calculate payload size - dropping packet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet

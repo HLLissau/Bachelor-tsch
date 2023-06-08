@@ -1,0 +1,350 @@
+using saved target 'cc26x0-cc13x0'
+rlwrap ../../tools/serial-io/serialdump -b115200 /dev/ttyACM0
+connecting to /dev/ttyACM0 [OK]
+[INFO: TSCH     ing on c[INFO: T ] scanning on channel 2[INFO: TSCH     ing on c0
+SCH     hannel 20
+ing on c5
+[INFO: Ting on c5
+0
+[INFO: TSCH      ] scan: received packet (35 bytes) on channel 20
+[INFO: TSCH      ] parse_eb: no schedule, setting up minimal schedule
+d] add_s 0 7
+[INFO: TSCH Sched] add_link sf=0 opt=Tx|Rx|ADV ts=0f.ffff
+[INFO: TS time source: (NULL LL addr) -> 0012.4b00.1204.d486
+[INFO: TSCH ssociati(1), sec 0, PAN  2, time0, hopping id 0, slotfra with 0 rom 0012.4b00.1204.d486
+#0012.4b00.0f8e.2580> [INFO: App       ] Not reachable yet
+Command not found. Type 'help' for a list of commands
+#0012.4b00.0f8e.2580> [INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 116, queue 1/8 1/8, len 21 21
+[INFO: TSCH      ] sending KA to 0012.4b00.1204.d486
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 116, status 0, tx 1
+[INFO: TSCH      ] KA sent to 0012.4b00.1204.d486, st 0-1
+[INFO: App       ] Not reachable yet
+[INFO: App       ] Not reachable yet
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 117, queue 1/8 1/8, len 21 21
+[INFO: TSCH      ] sending KA to 0012.4b00.1204.d486
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 117, status 0, tx 1
+[INFO: TSCH      ] KA sent to 0012.4b00.1204.d486, st 0-1
+[INFO: App       ] Not reachable yet
+[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 0, queue 1/8 1/8, len 14 24
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 0, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 65535
+[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 118, queue 1/8 1/8, len 21 100
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 118, status 0, tx 1
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 119, queue 1/8 1/8, len 21 21
+[INFO: TSCH      ] sending KA to 0012.4b00.1204.d486
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 119, status 0, tx 1
+[INFO: TSCH      ] KA sent to 0012.4b00.1204.d486, st 0-1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 65535
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 120, queue 1/8 1/8, len 21 100
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 120, status 0, tx 1
+[INFO: App       ] Not reachable yet
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 121, queue 1/8 1/8, len 21 100
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 121, status 0, tx 1
+[WARN: RPL       ] found parent: fe80::212:4b00:1204:d486, staying in DAG
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 65535
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 122, queue 1/8 1/8, len 21 91
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 122, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 180
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 65535
+[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 0, queue 1/8 1/8, len 14 94
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 0, status 0, tx 1
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 0, status 0, tx 1
+[INFO: App       ] Tx/Rx/MissedTx: 0/0/0
+[INFO: App       ] (client) Sending request 0 to fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 123, queue 1/8 1/8, len 21 63
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 123, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 182
+[INFO: App       ] Received response '(client) hello 0' from fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 0, status 0, tx 1
+[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 0, queue 1/8 1/8, len 14 94
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 0, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 65535
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 0, status 0, tx 1
+[INFO: App       ] (client) Sending request 1 to fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 124, queue 1/8 1/8, len 21 63
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 124, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 185
+[INFO: App       ] Received response '(client) hello 1' from fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 65535
+[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 0, queue 1/8 1/8, len 14 94
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 0, status 0, tx 1
+[INFO: App       ] (client) Sending request 2 to fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 125, queue 1/8 1/8, len 21 63
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 125, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 188
+[INFO: App       ] Received response '(client) hello 2' from fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 0, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 65535
+[INFO: App       ] (client) Sending request 3 to fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 126, queue 1/8 1/8, len 21 63
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 126, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 191
+[INFO: App       ] Received response '(client) hello 3' from fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 0, status 0, tx 1
+rpl-nbr
+RPL neighbors:
+fe80::212:4b00:1204:d486  261,   128 =>   389 --  9  bafp (last tx 0 min ago)
+fe80::212:4b00:1204:cca2  128,   272 =>   400 --  2 r a   (last tx 0 min ago)
+#0012.4b00.0f8e.2580> [INFO: App       ] (client) Sending request 4 to fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 127, queue 1/8 1/8, len 21 63
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 127, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 194
+[INFO: App       ] Received response '(client) hello 4' from fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 0, queue 1/8 1/8, len 14 94
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 0, status 0, tx 1
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 0, status 0, tx 1
+[INFO: App       ] (client) Sending request 5 to fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 128, queue 1/8 1/8, len 21 63
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 128, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 197
+[INFO: App       ] Received response '(client) hello 5' from fd00::212:4b00:1204:cca2
+[INFO: App       ] (client) Sending request 6 to fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 129, queue 1/8 1/8, len 21 63
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 129, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 200
+[INFO: App       ] Received response '(client) hello 6' from fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 0, status 0, tx 1
+[INFO: App       ] (client) Sending request 7 to fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 130, queue 1/8 1/8, len 21 63
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 130, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 203
+[INFO: App       ] Received response '(client) hello 7' from fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 0, status 0, tx 1
+[INFO: App       ] (client) Sending request 8 to fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 131, queue 1/8 1/8, len 21 63
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 131, status 0, tx 2
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 206
+[INFO: App       ] Received response '(client) hello 8' from fd00::212:4b00:1204:cca2
+[INFO: App       ] (client) Sending request 9 to fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 132, queue 1/8 1/8, len 21 63
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 132, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 209
+[INFO: App       ] Received response '(client) hello 9' from fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 0, status 0, tx 1
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 133, queue 1/8 1/8, len 21 100
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 133, status 0, tx 1
+[INFO: App       ] Tx/Rx/MissedTx: 10/10/0
+[INFO: App       ] (client) Sending request 10 to fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 134, queue 1/8 1/8, len 21 64
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 134, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 212
+[INFO: App       ] Received response '(client) hello 10' from fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 65535
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 0, status 0, tx 1
+[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 0, queue 1/8 1/8, len 14 94
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 0, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 65535
+[INFO: App       ] (client) Sending request 11 to fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 135, queue 1/8 1/8, len 21 64
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 135, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 215
+[INFO: App       ] Received response '(client) hello 11' from fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 0, status 0, tx 1
+[INFO: App       ] (client) Sending request 12 to fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 136, queue 1/8 1/8, len 21 64
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 136, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 218
+[INFO: App       ] Received response '(client) hello 12' from fd00::212:4b00:1204:cca2
+[INFO: App       ] (client) Sending request 13 to fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 137, queue 1/8 1/8, len 21 64
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 137, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 221
+[INFO: App       ] Received response '(client) hello 13' from fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 0, status 0, tx 1
+help
+Available commands:
+'> help': Shows this help
+'> reboot': Reboot the board by watchdog_reboot()
+'> log module level': Sets log level (0--4) for a given module (or "all"). For module "mac", level 4 also enables per-slot logging.
+'> mac-addr': Shows the node's MAC address
+'> ip-addr': Shows all IPv6 addresses
+'> ip-nbr': Shows all IPv6 neighbors
+'> ping addr': Pings the IPv6 address 'addr'
+'> routes': Shows the route entries
+'> rpl-set-root 0/1 [prefix]': Sets node as root (1) or not (0). A /64 prefix can be optionally specified.
+'> rpl-local-repair': Triggers a RPL local repair
+'> rpl-activate-relay': Triggers a RPL relay node check
+'> rpl-refresh-routes': Refreshes all routes through a DTSN increment
+'> rpl-status': Shows a summary of the current RPL state
+'> rpl-nbr': Shows the RPL neighbor table
+'> rpl-global-repair': Triggers a RPL global repair
+'> tsch-set-coordinator 0/1 [0/1]': Sets node as coordinator (1) or not (0). Second, optional parameter: enable (1) or disable (0) security.
+'> tsch-schedule': Shows the current TSCH schedule
+'> tsch-status': Shows a summary of the current TSCH state
+#0012.4b00.0f8e.2580> [INFO: App       ] (client) Sending request 14 to fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 138, queue 1/8 1/8, len 21 64
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 138, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 224
+[INFO: App       ] Received response '(client) hello 14' from fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 0, status 0, tx 1
+[INFO: App       ] (client) Sending request 15 to fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 139, queue 1/8 1/8, len 21 64
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 139, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 227
+[INFO: App       ] Received response '(client) hello 15' from fd00::212:4b00:1204:cca2
+[INFO: App       ] (client) Sending request 16 to fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 140, queue 1/8 1/8, len 21 64
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 140, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 230
+[INFO: App       ] Received response '(client) hello 16' from fd00::212:4b00:1204:cca2
+rpl-activate-relay
+Triggering relay rutine
+[WARN: RPL       ] Activate relay (Shell)
+[WARN: RPL       ] prefered parent: fe80::212:4b00:1204:d486  256,   131 =>   387 -- 16  bafp (last tx 0 min ago) with RSSI: -133 
+[WARN: RPL       ] alternative parent found: fe80::212:4b00:1204:cca2  128,   236 =>   364 --  3 r a   (last tx 1 min ago, better since 1 min) with RSSI: -108 
+[WARN: RPL       ] Changing nbr to: fe80::212:4b00:1204:cca2  128,   236 =>   364 --  3 r a   (last tx 1 min ago, better since 1 min) 
+[INFO: TSCH Queue] update time source: 0012.4b00.1204.d486 -> 0012.4b00.1204.cca2
+#0012.4b00.0f8e.2580> [INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 0, status 0, tx 1
+[INFO: App       ] (client) Sending request 17 to fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 141, queue 1/8 1/8, len 21 56
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 141, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 232
+[INFO: App       ] Received response '(client) hello 17' from fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 0, status 0, tx 1
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 142, queue 1/8 1/8, len 21 83
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 142, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 5
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 65535
+[INFO: App       ] (client) Sending request 18 to fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 143, queue 1/8 1/8, len 21 56
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 143, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 6
+[INFO: App       ] Received response '(client) hello 18' from fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 0, status 0, tx 1
+[INFO: App       ] (client) Sending request 19 to fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 144, queue 1/8 1/8, len 21 56
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 144, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 8
+[INFO: App       ] Received response '(client) hello 19' from fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 65535
+[INFO: App       ] Tx/Rx/MissedTx: 20/20/0
+[INFO: App       ] (client) Sending request 20 to fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 145, queue 1/8 1/8, len 21 56
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 145, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 10
+[INFO: App       ] Received response '(client) hello 20' from fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 0, status 0, tx 1
+rpl-activate-relay
+Triggering relay rutine
+[WARN: RPL       ] Activate relay (Shell)
+[WARN: RPL       ] prefered parent: fe80::212:4b00:1204:cca2  128,   191 =>   319 --  8 rbafp (last tx 0 min ago) with RSSI: -108 
+[WARN: RPL       ] alternative parent found: fe80::212:4b00:1204:d486  256,   131 =>   387 -- 16   af  (last tx 0 min ago) with RSSI: -131 
+[WARN: RPL       ] Changing nbr to: fe80::212:4b00:1204:d486  256,   131 =>   387 -- 16   af  (last tx 0 min ago) 
+[INFO: TSCH Queue] update time source: 0012.4b00.1204.cca2 -> 0012.4b00.1204.d486
+#0012.4b00.0f8e.2580> [INFO: App       ] (client) Sending request 21 to fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 146, queue 1/8 1/8, len 21 64
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 146, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 12
+[INFO: App       ] Received response '(client) hello 21' from fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 147, queue 1/8 1/8, len 21 91
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 147, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 239
+[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 0, queue 1/8 1/8, len 14 94
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 0, status 0, tx 1
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 0, status 0, tx 1
+[INFO: App       ] (client) Sending request 22 to fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 148, queue 1/8 1/8, len 21 64
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 148, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 242
+[INFO: App       ] Received response '(client) hello 22' from fd00::212:4b00:1204:cca2
+[INFO: App       ] (client) Sending request 23 to fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 149, queue 1/8 1/8, len 21 64
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 149, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 245
+[INFO: App       ] Received response '(client) hello 23' from fd00::212:4b00:1204:cca2
+rpl-activate-relay
+Triggering relay rutine
+[WARN: RPL       ] Activate relay (Shell)
+[WARN: RPL       ] prefered parent: fe80::212:4b00:1204:d486  256,   128 =>   384 -- 16  bafp (last tx 0 min ago) with RSSI: -130 
+[WARN: RPL       ] alternative parent found: fe80::212:4b00:1204:cca2  128,   191 =>   319 --  8 r af  (last tx 0 min ago, better since 0 min) with RSSI: -107 
+[WARN: RPL       ] Changing nbr to: fe80::212:4b00:1204:cca2  128,   191 =>   319 --  8 r af  (last tx 0 min ago, better since 0 min) 
+[INFO: TSCH Queue] update time source: 0012.4b00.1204.d486 -> 0012.4b00.1204.cca2
+#0012.4b00.0f8e.2580> [INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 0, status 0, tx 1
+[INFO: App       ] (client) Sending request 24 to fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 150, queue 1/8 1/8, len 21 56
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 150, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 247
+[INFO: App       ] Received response '(client) hello 24' from fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 151, queue 1/8 1/8, len 21 83
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 151, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 20
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 0, status 0, tx 1
+[INFO: App       ] (client) Sending request 25 to fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 152, queue 1/8 1/8, len 21 56
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 152, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 22
+[INFO: App       ] Received response '(client) hello 25' from fd00::212:4b00:1204:cca2
+[INFO: App       ] (client) Sending request 26 to fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 153, queue 1/8 1/8, len 21 56
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 153, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 24
+[INFO: App       ] Received response '(client) hello 26' from fd00::212:4b00:1204:cca2
+rpl-activate-relay
+Triggering relay rutine
+[WARN: RPL       ] Activate relay (Shell)
+[WARN: RPL       ] prefered parent: fe80::212:4b00:1204:cca2  128,   168 =>   296 -- 12 rbafp (last tx 0 min ago) with RSSI: -107 
+[WARN: RPL       ] alternative parent found: fe80::212:4b00:1204:d486  256,   128 =>   384 -- 16   af  (last tx 0 min ago) with RSSI: -130 
+[WARN: RPL       ] Changing nbr to: fe80::212:4b00:1204:d486  256,   128 =>   384 -- 16   af  (last tx 0 min ago) 
+[INFO: TSCH Queue] update time source: 0012.4b00.1204.cca2 -> 0012.4b00.1204.d486
+#0012.4b00.0f8e.2580> [INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 0, status 0, tx 1
+[INFO: App       ] (client) Sending request 27 to fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 154, queue 1/8 1/8, len 21 64
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 154, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 26
+[INFO: App       ] Received response '(client) hello 27' from fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 155, queue 1/8 1/8, len 21 91
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 253
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 155, status 0, tx 2
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 0, status 0, tx 1
+[INFO: App       ] (client) Sending request 28 to fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 156, queue 1/8 1/8, len 21 64
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 156, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 0
+[INFO: App       ] Received response '(client) hello 28' from fd00::212:4b00:1204:cca2
+rpl-activate-relay
+Triggering relay rutine
+[WARN: RPL       ] Activate relay (Shell)
+[WARN: RPL       ] prefered parent: fe80::212:4b00:1204:d486  256,   138 =>   394 -- 16  bafp (last tx 0 min ago) with RSSI: -130 
+[WARN: RPL       ] alternative parent found: fe80::212:4b00:1204:cca2  128,   168 =>   296 -- 12 r af  (last tx 0 min ago, better since 0 min) with RSSI: -107 
+[WARN: RPL       ] Changing nbr to: fe80::212:4b00:1204:cca2  128,   168 =>   296 -- 12 r af  (last tx 0 min ago, better since 0 min) 
+[INFO: TSCH Queue] update time source: 0012.4b00.1204.d486 -> 0012.4b00.1204.cca2
+#0012.4b00.0f8e.2580> [INFO: App       ] (client) Sending request 29 to fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 157, queue 1/8 1/8, len 21 56
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 157, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 2
+[INFO: App       ] Received response '(client) hello 29' from fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 0, status 0, tx 1
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 158, queue 1/8 1/8, len 21 83
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 158, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 32
+[INFO: App       ] Tx/Rx/MissedTx: 30/30/0
+[INFO: App       ] (client) Sending request 30 to fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 159, queue 1/8 1/8, len 21 56
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 159, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 34
+[INFO: App       ] Received response '(client) hello 30' from fd00::212:4b00:1204:cca2
+
