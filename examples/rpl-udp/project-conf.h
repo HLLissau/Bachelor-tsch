@@ -14,8 +14,7 @@
 #define TSCH_CONF_ASSOCIATION_POLL_FREQUENCY 1000
 
 
-
-#define LOG_CONF_LEVEL_TSCH                        LOG_LEVEL_WARN
+#define LOG_CONF_LEVEL_TSCH                        LOG_LEVEL_W
 #define LOG_CONF_LEVEL_RPL                         LOG_LEVEL_WARN
 #define LOG_CONF_LEVEL_TCPIP                       LOG_LEVEL_WARN
 #define LOG_CONF_LEVEL_IPV6                        LOG_LEVEL_INFO
