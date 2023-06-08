@@ -284,7 +284,7 @@ const struct routing_driver rpl_lite_driver_ext = {
   rpl_is_reachable,
   rpl_global_repair,
   rpl_local_repair,
-  rpl_activate_relay,
+  rpl_dag_activate_relay,
   rpl_ext_header_remove,
   rpl_ext_header_update,
   rpl_ext_header_hbh_update,

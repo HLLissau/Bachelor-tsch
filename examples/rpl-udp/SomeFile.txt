@@ -1,0 +1,69 @@
+using saved target 'cc26x0-cc13x0'
+rlwrap ../../tools/serial-io/serialdump -b115200 /dev/ttyACM0
+connecting to /dev/ttyACM0 [OK]
+[WARN: App       ] Tx/Rx/MissedTx: 1334/1334/0
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -50, Send Drone 
+[INFO: App       ] (client) Sending request 1334 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 1334' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 1335/1335/0
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -50, Send Drone 
+[INFO: App       ] (client) Sending request 1335 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: I[WARN: App       ] Tx/Rx/MissedTx: 1480/1480/0
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -49, Send Drone 
+[INFO: App       ] (client) Sending request 1480 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 1480' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 1481/1481/0
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -50, Send Drone 
+[INFO: App       ] (client) Sending request 1481 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 1482/1481/0
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -50, Send Drone 
+[INFO: App       ] (client) Sending request 1482 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 1481' from fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 1482' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 1483/1483/0
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -48, Send Drone 
+[INFO: App       ] (client) Sending request 1483 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 1483' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 1484/1484/0
+[WARN: RPL       ] relay inactive?: 1,parent rank?: 128 
+[WARN: RPL       ] Signal strengh is -48, Send Drone 
+[INFO: App       ] (client) Sending request 1484 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 67 (27)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 1484' from fd00::212:4b00:1204:cca2

@@ -1,0 +1,1095 @@
+using saved target 'cc26x0-cc13x0'
+rlwrap ../../tools/serial-io/serialdump -b115200 /dev/ttyACM0
+connecting to /dev/ttyACM0 [OK]
+[WARN: App       ] Tx/Rx/MissedTx: 565/533/144
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -62, server rank -62 
+[INFO: App       ] (client) Sending request 565 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 565' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 566/534/144
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -62, server rank -62 
+[INFO: App       ] (client) Sending request 566 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, [WARN: App       ] Tx/Rx/MissedTx: 567/535/144
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -61, server rank -61 
+[INFO: App       ] (client) Sending request 567 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 567' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 568/536/144
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -61, server rank -61 
+[INFO: App       ] (client) Sending request 568 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 568' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 569/537/144
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -61, server rank -61 
+[INFO: App       ] (client) Sending request 569 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 569' from fd00::212:4b00:1204:cca2
+[INFO: ICMPv6    ] Sending ICMPv6 packet to fe80::212:4b00:1204:d486, type 155, code 1, len 72
+[WARN: App       ] Tx/Rx/MissedTx: 570/538/144
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -61, server rank -61 
+[INFO: App       ] (client) Sending request 570 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 570' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 571/539/144
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -63, server rank -63 
+[INFO: App       ] (client) Sending request 571 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 571' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 572/540/144
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -63, server rank -63 
+[INFO: App       ] (client) Sending request 572 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 572' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 573/541/144
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -63, server rank -63 
+[INFO: App       ] (client) Sending request 573 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 573' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 574/542/144
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -66, server rank -66 
+[INFO: App       ] (client) Sending request 574 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 574' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 575/543/144
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -66, server rank -66 
+[INFO: App       ] (client) Sending request 575 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 575' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 576/544/144
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -68, server rank -68 
+[INFO: App       ] (client) Sending request 576 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 576' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 577/545/144
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -69, server rank -69 
+[INFO: App       ] (client) Sending request 577 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: App       ] Radio signal strength: -12 
+[WARN: App       ] Tx/Rx/MissedTx: 578/545/144
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -69, server rank -69 
+[INFO: App       ] (client) Sending request 578 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 577' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 579/546/144
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -71, server rank -71 
+[INFO: App       ] (client) Sending request 579 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: App       ] Radio signal strength: -12 
+[WARN: TSCH      ] ! drop dup ll from 0012.4b00.1204.cca2 seqno 196
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 578' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 580/547/144
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -74, server rank -74 
+[INFO: App       ] (client) Sending request 580 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: App       ] Radio signal strength: -12 
+[WARN: TSCH      ] ! drop dup ll from 0012.4b00.1204.cca2 seqno 197
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 579' from fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 580' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 581/549/144
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -75, server rank -75 
+[INFO: App       ] (client) Sending request 581 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 581' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 582/550/144
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -76, server rank -76 
+[INFO: App       ] (client) Sending request 582 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 582' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 583/551/144
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -76, server rank -76 
+[INFO: App       ] (client) Sending request 583 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: App       ] Radio signal strength: -12 
+[WARN: App       ] Tx/Rx/MissedTx: 584/551/144
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -76, server rank -76 
+[INFO: App       ] (client) Sending request 584 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 583' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 585/552/144
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -77, server rank -77 
+[INFO: App       ] (client) Sending request 585 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 584' from fd00::212:4b00:1204:cca2
+[WARN: TSCH      ] ! drop dup ll from 0012.4b00.1204.cca2 seqno 204
+[WARN: App       ] Tx/Rx/MissedTx: 586/553/144
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -78, server rank -78 
+[INFO: App       ] (client) Sending request 586 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: App       ] Radio signal strength: -12 
+[WARN: App       ] Tx/Rx/MissedTx: 587/553/144
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -78, server rank -78 
+[INFO: App       ] (client) Sending request 587 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 585' from fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 586' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 588/555/144
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -80, server rank -80 
+[INFO: App       ] (client) Sending request 588 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 587' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 589/556/144
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -81, server rank -81 
+[INFO: App       ] (client) Sending request 589 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: App       ] Radio signal strength: -12 
+[WARN: App       ] Tx/Rx/MissedTx: 590/556/144
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -81, server rank -81 
+[INFO: App       ] (client) Sending request 590 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: App       ] Radio signal strength: -12 
+[WARN: App       ] Tx/Rx/MissedTx: 591/556/144
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -81, server rank -81 
+[INFO: App       ] (client) Sending request 591 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 588' from fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 589' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 592/558/144
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -82, server rank -82 
+[INFO: App       ] (client) Sending request 592 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: App       ] Radio signal strength: -12 
+[WARN: App       ] Tx/Rx/MissedTx: 593/558/144
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -82, server rank -82 
+[INFO: App       ] (client) Sending request 593 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[INFO: App       ] Radio signal strength: -12 
+[WARN: TSCH      ] ! drop dup ll from 0012.4b00.1204.cca2 seqno 210
+[INFO: IPv6 Route] Removing default
+[INFO: IPv6 Route] Add default: adding default route to fe80::212:4b00:1204:d486
+[WARN: App       ] Tx/Rx/MissedTx: 594/558/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -65, server rank -82 
+[INFO: App       ] (client) Sending request 594 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[WARN: App       ] Tx/Rx/MissedTx: 595/558/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -65, server rank -82 
+[INFO: App       ] (client) Sending request 595 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: ICMPv6    ] Sending ICMPv6 packet to fd00::212:4b00:1204:cca2, type 155, code 2, len 46
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[WARN: App       ] Tx/Rx/MissedTx: 596/558/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -65, server rank -82 
+[INFO: App       ] (client) Sending request 596 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] icmpv6 input length 64 type: 155 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 596' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 597/559/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -67, server rank -82 
+[INFO: App       ] (client) Sending request 597 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fe80::212:4b00:1204:d486 to ff02::1a
+[INFO: IPv6      ] icmpv6 input length 116 type: 155 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 597' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 598/560/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -68, server rank -82 
+[INFO: App       ] (client) Sending request 598 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 598' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 599/561/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -69, server rank -82 
+[INFO: App       ] (client) Sending request 599 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[WARN: App       ] Tx/Rx/MissedTx: 600/561/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -69, server rank -82 
+[INFO: App       ] (client) Sending request 600 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 599' from fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 600' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 601/563/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -70, server rank -82 
+[INFO: App       ] (client) Sending request 601 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 601' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 602/564/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -70, server rank -82 
+[INFO: App       ] (client) Sending request 602 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 602' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 603/565/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server rank -82 
+[INFO: App       ] (client) Sending request 603 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 603' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 604/566/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server rank -82 
+[INFO: App       ] (client) Sending request 604 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 604' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 605/567/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -70, server rank -82 
+[INFO: App       ] (client) Sending request 605 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[WARN: App       ] Tx/Rx/MissedTx: 606/567/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -70, server rank -82 
+[INFO: App       ] (client) Sending request 606 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 605' from fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 606' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 607/569/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server rank -82 
+[INFO: App       ] (client) Sending request 607 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 607' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 608/570/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server rank -82 
+[INFO: App       ] (client) Sending request 608 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 608' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 609/571/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server rank -82 
+[INFO: App       ] (client) Sending request 609 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 609' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 610/572/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -70, server rank -82 
+[INFO: App       ] (client) Sending request 610 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 610' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 611/573/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server rank -82 
+[INFO: App       ] (client) Sending request 611 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 611' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 612/574/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server rank -82 
+[INFO: App       ] (client) Sending request 612 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 612' from fd00::212:4b00:1204:cca2
+[WARN: TSCH      ] ! drop dup ll from 0012.4b00.1204.d486 seqno 119
+[WARN: App       ] Tx/Rx/MissedTx: 613/575/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -70, server rank -82 
+[INFO: App       ] (client) Sending request 613 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 613' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 614/576/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server rank -82 
+[INFO: App       ] (client) Sending request 614 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 614' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 615/577/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -72, server rank -83 
+[INFO: App       ] (client) Sending request 615 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 615' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 616/578/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -73, server rank -83 
+[INFO: App       ] (client) Sending request 616 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 616' from fd00::212:4b00:1204:cca2
+[WARN: TSCH      ] ! drop dup ll from 0012.4b00.1204.d486 seqno 128
+[WARN: App       ] Tx/Rx/MissedTx: 617/579/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -74, server rank -83 
+[INFO: App       ] (client) Sending request 617 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 617' from fd00::212:4b00:1204:cca2
+[WARN: TSCH      ] ! drop dup ll from 0012.4b00.1204.d486 seqno 130
+[WARN: App       ] Tx/Rx/MissedTx: 618/580/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -75, server rank -83 
+[INFO: App       ] (client) Sending request 618 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 618' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 619/581/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -74, server rank -83 
+[INFO: App       ] (client) Sending request 619 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 619' from fd00::212:4b00:1204:cca2
+[WARN: TSCH      ] ! drop dup ll from 0012.4b00.1204.d486 seqno 135
+[WARN: App       ] Tx/Rx/MissedTx: 620/582/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -75, server rank -83 
+[INFO: App       ] (client) Sending request 620 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 620' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 621/583/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -76, server rank -83 
+[INFO: App       ] (client) Sending request 621 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 621' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 622/584/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -75, server rank -83 
+[INFO: App       ] (client) Sending request 622 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 622' from fd00::212:4b00:1204:cca2
+[WARN: TSCH      ] ! drop dup ll from 0012.4b00.1204.d486 seqno 141
+[WARN: App       ] Tx/Rx/MissedTx: 623/585/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -76, server rank -83 
+[INFO: App       ] (client) Sending request 623 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 623' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 624/586/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -76, server rank -83 
+[INFO: App       ] (client) Sending request 624 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 624' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 625/587/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -76, server rank -83 
+[INFO: App       ] (client) Sending request 625 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 625' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 626/588/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -75, server rank -83 
+[INFO: App       ] (client) Sending request 626 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 626' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 627/589/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -75, server rank -83 
+[INFO: App       ] (client) Sending request 627 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 627' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 628/590/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -73, server rank -83 
+[INFO: App       ] (client) Sending request 628 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 628' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 629/591/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -73, server rank -83 
+[INFO: App       ] (client) Sending request 629 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 629' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 630/592/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -73, server rank -83 
+[INFO: App       ] (client) Sending request 630 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 630' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 631/593/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -72, server rank -83 
+[INFO: App       ] (client) Sending request 631 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 631' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 632/594/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server rank -83 
+[INFO: App       ] (client) Sending request 632 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 632' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 633/595/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -69, server rank -83 
+[INFO: App       ] (client) Sending request 633 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 633' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 634/596/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -67, server rank -83 
+[INFO: App       ] (client) Sending request 634 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 634' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 635/597/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -64, server rank -83 
+[INFO: App       ] (client) Sending request 635 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 635' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 636/598/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -63, server rank -83 
+[INFO: App       ] (client) Sending request 636 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 636' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 637/599/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -62, server rank -83 
+[INFO: App       ] (client) Sending request 637 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 637' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 638/600/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -62, server rank -83 
+[INFO: App       ] (client) Sending request 638 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 638' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 639/601/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -61, server rank -83 
+[INFO: App       ] (client) Sending request 639 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 639' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 640/602/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -61, server rank -83 
+[INFO: App       ] (client) Sending request 640 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 640' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 641/603/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -60, server rank -83 
+[INFO: App       ] (client) Sending request 641 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 641' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 642/604/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -60, server rank -83 
+[INFO: App       ] (client) Sending request 642 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 642' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 643/605/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -61, server rank -83 
+[INFO: App       ] (client) Sending request 643 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 643' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 644/606/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -61, server rank -83 
+[INFO: App       ] (client) Sending request 644 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 644' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 645/607/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -61, server rank -83 
+[INFO: App       ] (client) Sending request 645 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 645' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 646/608/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -61, server rank -83 
+[INFO: App       ] (client) Sending request 646 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 646' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 647/609/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -61, server rank -82 
+[INFO: App       ] (client) Sending request 647 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 647' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 648/610/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -61, server rank -82 
+[INFO: App       ] (client) Sending request 648 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 648' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 649/611/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -60, server rank -82 
+[INFO: App       ] (client) Sending request 649 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 649' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 650/612/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -61, server rank -82 
+[INFO: App       ] (client) Sending request 650 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 650' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 651/613/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -61, server rank -82 
+[INFO: App       ] (client) Sending request 651 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 651' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 652/614/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -60, server rank -80 
+[INFO: App       ] (client) Sending request 652 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 652' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 653/615/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -60, server rank -80 
+[INFO: App       ] (client) Sending request 653 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 653' from fd00::212:4b00:1204:cca2
+[WARN: TSCH      ] ! drop dup ll from 0012.4b00.1204.d486 seqno 210
+[WARN: App       ] Tx/Rx/MissedTx: 654/616/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -58, server rank -80 
+[INFO: App       ] (client) Sending request 654 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 654' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 655/617/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -59, server rank -80 
+[INFO: App       ] (client) Sending request 655 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 655' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 656/618/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -59, server rank -80 
+[INFO: App       ] (client) Sending request 656 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 656' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 657/619/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -58, server rank -80 
+[INFO: App       ] (client) Sending request 657 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 657' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 658/620/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -58, server rank -80 
+[INFO: App       ] (client) Sending request 658 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 658' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 659/621/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -58, server rank -78 
+[INFO: App       ] (client) Sending request 659 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 659' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 660/622/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -58, server rank -78 
+[INFO: App       ] (client) Sending request 660 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 660' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 661/623/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -58, server rank -78 
+[INFO: App       ] (client) Sending request 661 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 661' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 662/624/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -59, server rank -78 
+[INFO: App       ] (client) Sending request 662 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 662' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 663/625/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -59, server rank -78 
+[INFO: App       ] (client) Sending request 663 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 663' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 664/626/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -59, server rank -78 
+[INFO: App       ] (client) Sending request 664 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 664' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 665/627/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -59, server rank -77 
+[INFO: App       ] (client) Sending request 665 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 665' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 666/628/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -59, server rank -77 
+[INFO: App       ] (client) Sending request 666 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 666' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 667/629/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -59, server rank -77 
+[INFO: App       ] (client) Sending request 667 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 667' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 668/630/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -59, server rank -77 
+[INFO: App       ] (client) Sending request 668 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 668' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 669/631/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -59, server rank -77 
+[INFO: App       ] (client) Sending request 669 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 669' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 670/632/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -60, server rank -77 
+[INFO: App       ] (client) Sending request 670 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[WARN: App       ] Tx/Rx/MissedTx: 671/632/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -60, server rank -77 
+[INFO: App       ] (client) Sending request 671 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[WARN: App       ] Tx/Rx/MissedTx: 672/632/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -60, server rank -72 
+[INFO: App       ] (client) Sending request 672 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[WARN: App       ] Tx/Rx/MissedTx: 673/632/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -62, server rank -72 
+[INFO: App       ] (client) Sending request 673 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[WARN: App       ] Tx/Rx/MissedTx: 674/632/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -62, server rank -72 
+[INFO: App       ] (client) Sending request 674 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 670' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 675/633/144
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -63, server rank -72 
+[INFO: App       ] (client) Sending request 675 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[INFO: App       ] Radio signal strength: -12 
