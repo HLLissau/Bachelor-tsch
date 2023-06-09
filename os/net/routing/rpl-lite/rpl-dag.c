@@ -269,7 +269,6 @@ int rpl_dag_activate_relay(const char *str) {
     int16_t server_rssi = rpl_neighbor_get_link_stats(server_nbr)->rssi;
     LOG_WARN("relay inactive?: %d,parent RSSI: %d, server RSSI %d \n", relay_inactive, parent_rssi, server_rssi);
     //return 0; // for test without relay
-    return 0;
 
     if (!relay_inactive) {
         LOG_WARN("Server Signal strengh is %d \n", server_rssi);
