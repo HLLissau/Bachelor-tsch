@@ -45,19 +45,8 @@
 #include "net/ipv6/uip-sr.h"
 #include "net/link-stats.h"
 #include "net/nbr-table.h"
-#include "net/routing/rpl-lite/rpl-neighbor.h"
 #include "net/routing/rpl-lite/rpl.h"
-#include "examples/rpl-udp/rpl_relay.h"
 
-static uip_ds6_nbr_t *
-rpl_get_ds6_nbr(rpl_nbr_t *nbr) {
-    const uip_lladdr_t *lladdr = (const uip_lladdr_t *)rpl_neighbor_get_lladdr(nbr);
-    if (lladdr != NULL) {
-        return uip_ds6_nbr_ll_lookup(lladdr);
-    } else {
-        return NULL;
-    }
-}
 /* Log configuration */
 #include "sys/log.h"
 #define LOG_MODULE "RPL"
@@ -240,29 +229,28 @@ void rpl_local_repair(const char *str) {
     }
 }
 /*---------------------------------------------------------------------------*/
-int rpl_activate_relay(const char *str)
-{
-  LOG_WARN("Activate relay (%s)\n", str);
-  rpl_nbr_t *old_parent = curr_instance.dag.preferred_parent;
-  char buf[120];
-  rpl_neighbor_snprint(buf, sizeof(buf), old_parent);
-  LOG_WARN("prefered parent: %s with RSSI: %d \n", buf,(rpl_neighbor_get_link_stats(old_parent)->rssi-74));
-  rpl_nbr_t *nbr;
-  nbr = nbr_table_head(rpl_neighbors);
-  while (nbr !=NULL ){
-    if (nbr !=old_parent){ /* Don't compare with current parent */
-      rpl_neighbor_snprint(buf, sizeof(buf), nbr);
-      LOG_WARN("alternative parent found: %s with RSSI: %d \n", buf,(rpl_neighbor_get_link_stats(nbr)->rssi-74));
-      if (nbr!=old_parent) { /*Best neighbour set to new parent */
-        LOG_WARN("Changing nbr to: %s \n",buf);
-        rpl_neighbor_set_preferred_parent(nbr); //setting new parrent
-        break;
-      }
+int rpl_dag_activate_relay(const char *str) {
+    LOG_WARN("Activate relay (%s)\n", str);
+    rpl_nbr_t *old_parent = curr_instance.dag.preferred_parent;
+    char buf[120];
+    rpl_neighbor_snprint(buf, sizeof(buf), old_parent);
+    LOG_WARN("prefered parent: %s with RSSI: %d \n", buf, (rpl_neighbor_get_link_stats(old_parent)->rssi - 74));
+    rpl_nbr_t *nbr;
+    nbr = nbr_table_head(rpl_neighbors);
+    while (nbr != NULL) {
+        if (nbr != old_parent) { /* Don't compare with current parent */
+            rpl_neighbor_snprint(buf, sizeof(buf), nbr);
+            LOG_WARN("alternative parent found: %s with RSSI: %d \n", buf, (rpl_neighbor_get_link_stats(nbr)->rssi - 74));
+            if (nbr != old_parent) { /*Best neighbour set to new parent */
+                LOG_WARN("Changing nbr to: %s \n", buf);
+                rpl_neighbor_set_preferred_parent(nbr);  // setting new parrent
+                break;
+            }
+        }
+        nbr = nbr_table_next(rpl_neighbors, nbr);
     }
-    nbr = nbr_table_next(rpl_neighbors, nbr);
-  }
-  rpl_neighbor_snprint(buf, sizeof(buf), nbr);
-  return 1;
+    rpl_neighbor_snprint(buf, sizeof(buf), nbr);
+    return 1;
 }
 /*---------------------------------------------------------------------------*/
 int rpl_dag_ready_to_advertise(void) {
