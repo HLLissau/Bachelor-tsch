@@ -1008,7 +1008,7 @@ const struct shell_command_t builtin_shell_commands[] = {
 #if UIP_CONF_IPV6_RPL
   { "rpl-set-root",         cmd_rpl_set_root,         "'> rpl-set-root 0/1 [prefix]': Sets node as root (1) or not (0). A /64 prefix can be optionally specified." },
   { "rpl-local-repair",     cmd_rpl_local_repair,     "'> rpl-local-repair': Triggers a RPL local repair" },
-  { "rpl-dag-activate-relay",     cmd_rpl_dag_activate_relay,     "'> rpl-activate-relay': Triggers a RPL relay node check" },
+  { "rpl-dag-activate-relay",     cmd_rpl_dag_activate_relay,     "'> rpl-dag-activate-relay': Triggers a RPL relay node check" },
 
 
 #if ROUTING_CONF_RPL_LITE
