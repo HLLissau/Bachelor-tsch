@@ -17,7 +17,7 @@
 #define UDP_CLIENT_PORT 8765
 #define UDP_SERVER_PORT 5678
 
-#define SEND_INTERVAL (2* CLOCK_SECOND)
+#define SEND_INTERVAL (10* CLOCK_SECOND)
 
 static struct simple_udp_connection udp_conn;
 static uint32_t rx_count = 0;
@@ -41,10 +41,6 @@ udp_rx_callback(struct simple_udp_connection *c,
 #endif
     LOG_INFO_("\n");
     rx_count++;
-}
-
-static int automatic_relay_switch() {
-    return NETSTACK_ROUTING.activate_relay("Client from function");
 }
 /*---------------------------------------------------------------------------*/
 PROCESS_THREAD(udp_client_process, ev, data) {
@@ -76,7 +72,6 @@ PROCESS_THREAD(udp_client_process, ev, data) {
             if (tx_count % 1 == 0) {
                 LOG_WARN("Tx/Rx/MissedTx: %" PRIu32 "/%" PRIu32 "/%" PRIu32 "\n",
                          tx_count, rx_count, missed_tx_count);
-                automatic_relay_switch()
             }
             /* Send to DAG root */
             LOG_INFO("(client) Sending request %" PRIu32 " to ", tx_count);
