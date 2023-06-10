@@ -16,7 +16,8 @@ connecting to /dev/ttyACM0 [OK]
 [INFO: App       ] (client) Sending request 38 to fd00::212:4b00:1204:cca2
 [INFO: IPv6      ] Sending packet with length 65 (25)
 [INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
-[INFO: IPv6 Route] Default route found, IP address [WARN: App       ] Tx/Rx/MissedTx: 46/46/0
+[INFO: IPv6 Route] Default route found, IP address 
+[WARN: App       ] Tx/Rx/MissedTx: 46/46/0
 [WARN: RPL       ] relay inactive?: 1,parent RSSI: -57, server RSSI -57 
 [INFO: App       ] (client) Sending request 46 to fd00::212:4b00:1204:cca2
 [INFO: IPv6      ] Sending packet with length 65 (25)

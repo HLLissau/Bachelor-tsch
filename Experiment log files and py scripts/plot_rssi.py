@@ -24,6 +24,7 @@ offsetz= 0
 with open(sys.argv[1]) as txtfile:
     for line in txtfile:
         if ("[WARN: RPL       ] relay inactive?:" in line):
+           print(line)
            _,x,y = ([(-1)*int(i) for i in re.findall(r'\b\d+\b', line)])
            #print(x)
            #print(y)
@@ -43,6 +44,7 @@ with open(sys.argv[1]) as txtfile:
             #packet_diff.append(int(x2)-int(y2))
 
         if ("[WARN: App       ] Tx/Rx/MissedTx: " in line):
+            print(line)
             #print(line)
             #print((line[35:-1].split("/")))
 
@@ -66,30 +68,31 @@ with open(sys.argv[1]) as txtfile:
 
 fig, ax = plt.subplots()
 
-ax2 = ax.twinx()
-ax2.bar(range(1,1+len(rssi_values_parent)), packet_diff,label="Tx - Rx" , color = "blue", alpha=.2)
-ax2.bar(range(1,1+len(rssi_values_parent)), packet_missing,label="MissedTx" , color = "red", alpha=.2)
+#ax2 = ax.twinx()
+#ax2.bar(range(1,1+len(rssi_values_parent)), packet_diff,label="Tx - Rx" , color = "blue", alpha=.2)
+#ax2.bar(range(1,1+len(rssi_values_parent)), packet_missing,label="MissedTx" , color = "red", alpha=.2)
 #ax2.set_ylim(0, max(max(packet_diff),max(packet_missing)) * 2)
-ax2.set_ylim(0, max(20,max(packet_missing)*2))
-if (missing_counter == 0):
-    ax2.set_yticks(range(0,20+1))
+#ax2.set_ylim(0, max(20,max(packet_missing)*2))
+#if (missing_counter == 0):
+#    ax2.set_yticks(range(0,20+1))
 
 
 ax.plot(range(1,1+len(rssi_values_parent)),rssi_values_parent,label="Parent RSSI", color= "green")
 ax.plot(range(1,1+len(rssi_values_parent)),rssi_values_server,label="Server RSSI",color= "red")
 
-ax.set_zorder(ax2.get_zorder()+1)
-ax.set_frame_on(False)
+#ax.set_zorder(ax2.get_zorder()+1)
+#ax.set_frame_on(False)
 
 ax.set_xlabel("packet number")
 ax.set_ylabel("RSSI")
 #plt.plot(range(1,1+len(rssi_values_parent)),rssi_values_parent,rssi_values_server)
 #plt.legend(['Parent', 'Server'])
 handles, labels = ax.get_legend_handles_labels()
-handles2, labels2 = ax2.get_legend_handles_labels()
-combined_handles = handles + handles2
-combined_labels = labels + labels2
-ax.legend(combined_handles, combined_labels, loc='upper center')
+#handles2, labels2 = ax2.get_legend_handles_labels()
+#combined_handles = handles + handles2
+#combined_labels = labels + labels2
+#ax.legend(combined_handles, combined_labels, loc='upper center')
+ax.legend(handles, labels, loc='upper center')
 
 print(packet_diff)
 plt.show()

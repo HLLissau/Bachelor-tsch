@@ -4,6 +4,7 @@ import re
 import matplotlib.pyplot as plt 
 from scipy.optimize import curve_fit
 import numpy as np
+import math
 
 rssi_values_parent=[]
 rssi_values_server=[]
@@ -19,7 +20,7 @@ offsetx= 0
 offsety= 0
 offsetz= 0
 
-x = [0.41,0.84,1.55,9.23,14.90,17.60]
+x = [0.41,0.57,1.55,9.23,14.90,17.60]
 y1 = [-51.1,-57.36,-66,-75.19,-82.43,-85.4]
 y2 = [ 0,0,0,0,11,6]
 
@@ -37,7 +38,7 @@ fit_y = Gauss(xdata, fit_A, fit_B)
 fig, ax = plt.subplots()
 
 ax2 = ax.twinx()
-ax2.bar(x, y2,label="packet difference" , color = "blue", alpha=.2)
+ax2.bar(x, y2,label="Tx-Rx" , color = "blue", alpha=.2)
 #ax2.bar(range(1,1+len(x)), packet_missing,label="packet missing" , color = "red", alpha=.2)
 ax2.set_ylim(0, max(y2) * 2)
 
@@ -46,8 +47,13 @@ ax.plot(x,y1,"o",label="avg. RSSI", color= "green")
 
 # Value using the following equation:
 #
-x2 =10 ** (((-58.87441428) -(ydata))/(10 * 2))
-ax.plot(x2,ydata,"--", color= "green", label= "Expected values using equation")
+x2 =10 ** (((-62.24250289) -(ydata))/(10 * 2))
+x3 = [((-75)-(10*2)*math.log(l/9.23)) for l in xdata]
+ax.plot(xdata,x3,"--", color= "red", label= "Expected values using equation 1")
+
+
+
+ax.plot(x2,ydata,"--", color= "green", label= "Expected values using equation 2")
 #ax.plot(range(1,1+len(rssi_values_parent)),rssi_values_server,label="server RSSI",color= "red")
 
 ax.set_zorder(ax2.get_zorder()+1)
