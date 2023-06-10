@@ -240,7 +240,7 @@ void rpl_local_repair(const char *str) {
     }
 }
 /*---------------------------------------------------------------------------*/
-rpl_activate_relay(const char *str)
+int rpl_activate_relay(const char *str)
 {
   LOG_WARN("Activate relay (%s)\n", str);
   rpl_nbr_t *old_parent = curr_instance.dag.preferred_parent;
@@ -262,6 +262,7 @@ rpl_activate_relay(const char *str)
     nbr = nbr_table_next(rpl_neighbors, nbr);
   }
   rpl_neighbor_snprint(buf, sizeof(buf), nbr);
+  return 1;
 }
 /*---------------------------------------------------------------------------*/
 int rpl_dag_ready_to_advertise(void) {
