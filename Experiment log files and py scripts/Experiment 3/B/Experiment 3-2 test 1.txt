@@ -16,7 +16,8 @@ connecting to /dev/ttyACM0 [OK]
 [WARN: RPL       ] relay inactive?: 1,parent RSSI: -58, server rank -58 
 [INFO: App       ] (client) Sending request 181 to fd00::212:4b00:1204:cca2
 [INFO: IPv6      ] Sending packet with length 66 (26)
-[INFO: IPv6 Route] [WARN: App       ] Tx/Rx/MissedTx: 182/182/0
+[INFO: IPv6 Route] 
+[WARN: App       ] Tx/Rx/MissedTx: 182/182/0
 [WARN: RPL       ] relay inactive?: 1,parent RSSI: -58, server rank -58 
 [INFO: App       ] (client) Sending request 182 to fd00::212:4b00:1204:cca2
 [INFO: IPv6      ] Sending packet with length 66 (26)

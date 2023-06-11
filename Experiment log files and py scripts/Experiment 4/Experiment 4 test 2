@@ -1,0 +1,2850 @@
+using saved target 'cc26x0-cc13x0'
+rlwrap ../../tools/serial-io/serialdump -b115200 /dev/ttyACM0
+connecting to /dev/ttyACM0 [OK]
+RN: RPL       ] relay inactive?: 1,parent RSSI: -50, server RSSI -50 
+[INFO: App       ] (client) Sending request 352 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 0, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 255, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 255, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 218
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 352' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 353/353/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -50, server RSSI -50 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 17, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 240
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 370' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 371/371/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -48, server RSSI -48 
+[INFO: App       ] (client) Sending request 371 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 3, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 18, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 18, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 241
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 371' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 372/372/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -48, server RSSI -48 
+[INFO: App       ] (client) Sending request 372 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 4, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 19, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 19, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 242
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 372' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 373/373/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -50, server RSSI -50 
+[INFO: App       ] (client) Sending request 373 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 5, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 20, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 20, status 0, tx 3
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 244
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 373' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 374/374/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -53, server RSSI -53 
+[INFO: App       ] (client) Sending request 374 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 6, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 21, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 21, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 245
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 374' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 375/375/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -55, server RSSI -55 
+[INFO: App       ] (client) Sending request 375 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 7, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 22, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 22, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 246
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 375' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 376/376/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -57, server RSSI -57 
+[WARN: RPL       ] Signal strengh is -57, Send Drone 
+[INFO: App       ] (client) Sending request 376 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 0, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 23, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 23, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 247
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 376' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 377/377/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -61, server RSSI -61 
+[WARN: RPL       ] Signal strengh is -61, Send Drone 
+[INFO: App       ] (client) Sending request 377 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 1, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 24, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 24, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 248
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 377' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 378/378/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -62, server RSSI -62 
+[WARN: RPL       ] Signal strengh is -62, Send Drone 
+[INFO: App       ] (client) Sending request 378 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 2, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 25, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 25, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 250
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 378' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 379/379/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -64, server RSSI -64 
+[WARN: RPL       ] Signal strengh is -64, Send Drone 
+[INFO: App       ] (client) Sending request 379 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 3, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 26, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 26, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 251
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 379' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 380/380/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -65, server RSSI -65 
+[WARN: RPL       ] Signal strengh is -65, Send Drone 
+[INFO: App       ] (client) Sending request 380 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 4, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 27, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 27, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 252
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 380' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 381/381/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -67, server RSSI -67 
+[WARN: RPL       ] Signal strengh is -67, Send Drone 
+[INFO: App       ] (client) Sending request 381 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 5, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 28, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 28, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 253
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 381' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 382/382/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -70, server RSSI -70 
+[WARN: RPL       ] Signal strengh is -70, switching to relay 
+[WARN: RPL       ] prefered parent: fe80::212:4b00:1204:cca2  128,   136 =>   264 -- 16 rbafp (last tx 0 min ago) 
+ with RSSI: -70 
+ with rank: 128 
+ acceptable: 1 
+, NUD: 0  
+[WARN: RPL       ] alternative parent found: fe80::212:4b00:1204:d486  308,   133 =>   441 -- 16   af  (last tx 2 min ago) 
+with RSSI: -72 
+ with rank: 308 
+ acceptable?: 1 
+,NUD: 0 
+[INFO: App       ] (client) Sending request 382 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 6, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 29, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 29, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 255
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 382' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 383/383/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -71, server RSSI -71 
+[WARN: RPL       ] Signal strengh is -71, switching to relay 
+[WARN: RPL       ] prefered parent: fe80::212:4b00:1204:cca2  128,   135 =>   263 -- 16 rbafp (last tx 0 min ago) 
+ with RSSI: -71 
+ with rank: 128 
+ acceptable: 1 
+, NUD: 0  
+[WARN: RPL       ] alternative parent found: fe80::212:4b00:1204:d486  308,   133 =>   441 -- 16   af  (last tx 2 min ago) 
+with RSSI: -72 
+ with rank: 308 
+ acceptable?: 1 
+,NUD: 0 
+[INFO: App       ] (client) Sending request 383 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 7, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 30, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 30, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 0
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 383' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 384/384/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -73, server RSSI -73 
+[WARN: RPL       ] Signal strengh is -73, switching to relay 
+[WARN: RPL       ] prefered parent: fe80::212:4b00:1204:cca2  128,   134 =>   262 -- 16 rbafp (last tx 0 min ago) 
+ with RSSI: -73 
+ with rank: 128 
+ acceptable: 1 
+, NUD: 0  
+[WARN: RPL       ] alternative parent found: fe80::212:4b00:1204:d486  308,   133 =>   441 -- 16   af  (last tx 2 min ago) 
+with RSSI: -72 
+ with rank: 308 
+ acceptable?: 1 
+,NUD: 0 
+[WARN: RPL       ] Changing parent to: fe80::212:4b00:1204:d486  308,   133 =>   441 -- 16   af  (last tx 2 min ago) 
+[INFO: TSCH Queue] update time source: 0012.4b00.1204.cca2 -> 0012.4b00.1204.d486
+[INFO: IPv6 Route] Removing default
+[INFO: IPv6 Route] Add default: adding default route to fe80::212:4b00:1204:d486
+[INFO: App       ] (client) Sending request 384 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 0, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 31, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 31, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 65
+[INFO: IPv6      ] packet received from fe80::212:4b00:1204:d486 to fe80::212:4b00:f8e:2580
+[INFO: IPv6      ] icmpv6 input length 116 type: 155 
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 1
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 384' from fd00::212:4b00:1204:cca2
+[WARN: TSCH      ] ! drop dup ll from 0012.4b00.1204.cca2 seqno 1
+[WARN: App       ] Tx/Rx/MissedTx: 385/385/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -69, server RSSI -74 
+[WARN: RPL       ] Server Signal strengh is -74 
+[INFO: App       ] (client) Sending request 385 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 1, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 32, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 32, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 2
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 385' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 386/386/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -68, server RSSI -75 
+[WARN: RPL       ] Server Signal strengh is -75 
+[INFO: App       ] (client) Sending request 386 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 2, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 33, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 33, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 3
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 386' from fd00::212:4b00:1204:cca2
+[WARN: TSCH      ] ! drop dup ll from 0012.4b00.1204.cca2 seqno 3
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[INFO: ICMPv6    ] Sending ICMPv6 packet to fd00::212:4b00:1204:cca2, type 155, code 2, len 46
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 3, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 34, queue 1/8 1/8, len 21 91
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 34, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 69
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] icmpv6 input length 64 type: 155 
+[WARN: App       ] Tx/Rx/MissedTx: 387/387/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -68, server RSSI -76 
+[WARN: RPL       ] Server Signal strengh is -76 
+[INFO: App       ] (client) Sending request 387 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 4, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 35, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 35, status 0, tx 2
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 72
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 387' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 388/388/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -68, server RSSI -76 
+[WARN: RPL       ] Server Signal strengh is -76 
+[INFO: App       ] (client) Sending request 388 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 5, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 36, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 36, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 74
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 388' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 389/389/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -68, server RSSI -77 
+[WARN: RPL       ] Server Signal strengh is -77 
+[INFO: App       ] (client) Sending request 389 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 6, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 37, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 37, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 76
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 389' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 390/390/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -68, server RSSI -77 
+[WARN: RPL       ] Server Signal strengh is -77 
+[INFO: App       ] (client) Sending request 390 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 7, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 38, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 38, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 78
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 390' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 391/391/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -68, server RSSI -77 
+[WARN: RPL       ] Server Signal strengh is -77 
+[INFO: App       ] (client) Sending request 391 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 0, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 39, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 39, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 80
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 391' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 392/392/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -68, server RSSI -77 
+[WARN: RPL       ] Server Signal strengh is -77 
+[INFO: App       ] (client) Sending request 392 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 1, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 40, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 40, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 83
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 392' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 393/393/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -68, server RSSI -77 
+[WARN: RPL       ] Server Signal strengh is -77 
+[INFO: App       ] (client) Sending request 393 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 2, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 41, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 41, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 85
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 393' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 394/394/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -67, server RSSI -77 
+[WARN: RPL       ] Server Signal strengh is -77 
+[INFO: App       ] (client) Sending request 394 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 3, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 42, queue 0/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 42, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 87
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 394' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 395/395/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -68, server RSSI -78 
+[WARN: RPL       ] Server Signal strengh is -78 
+[INFO: App       ] (client) Sending request 395 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 4, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 43, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 43, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 89
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 395' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 396/396/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -68, server RSSI -78 
+[WARN: RPL       ] Server Signal strengh is -78 
+[INFO: App       ] (client) Sending request 396 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 5, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 44, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 44, status 0, tx 2
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 92
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 396' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 397/397/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -68, server RSSI -78 
+[WARN: RPL       ] Server Signal strengh is -78 
+[INFO: App       ] (client) Sending request 397 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 6, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 45, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 45, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 94
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 397' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 398/398/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -69, server RSSI -78 
+[WARN: RPL       ] Server Signal strengh is -78 
+[INFO: App       ] (client) Sending request 398 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 7, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 46, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 46, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 96
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 398' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 399/399/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -70, server RSSI -78 
+[WARN: RPL       ] Server Signal strengh is -78 
+[INFO: App       ] (client) Sending request 399 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 0, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 47, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 47, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 98
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 399' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 400/400/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -78 
+[WARN: RPL       ] Server Signal strengh is -78 
+[INFO: App       ] (client) Sending request 400 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 1, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 48, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 48, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 100
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 400' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 401/401/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -78 
+[WARN: RPL       ] Server Signal strengh is -78 
+[INFO: App       ] (client) Sending request 401 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 2, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 49, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 49, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 102
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 401' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 402/402/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -79 
+[WARN: RPL       ] Server Signal strengh is -79 
+[INFO: App       ] (client) Sending request 402 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 3, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 50, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 50, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 105
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 402' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 403/403/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -79 
+[WARN: RPL       ] Server Signal strengh is -79 
+[INFO: App       ] (client) Sending request 403 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 4, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 51, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 51, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 107
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 403' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 404/404/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -72, server RSSI -79 
+[WARN: RPL       ] Server Signal strengh is -79 
+[INFO: App       ] (client) Sending request 404 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 5, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 52, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 52, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 109
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 404' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 405/405/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -72, server RSSI -79 
+[WARN: RPL       ] Server Signal strengh is -79 
+[INFO: App       ] (client) Sending request 405 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 6, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 53, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 53, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 111
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 405' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 406/406/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -72, server RSSI -79 
+[WARN: RPL       ] Server Signal strengh is -79 
+[INFO: App       ] (client) Sending request 406 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 7, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 54, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 54, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 113
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 406' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 407/407/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -72, server RSSI -79 
+[WARN: RPL       ] Server Signal strengh is -79 
+[INFO: App       ] (client) Sending request 407 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 0, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 55, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 55, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 116
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 407' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 408/408/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -72, server RSSI -79 
+[WARN: RPL       ] Server Signal strengh is -79 
+[INFO: App       ] (client) Sending request 408 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 1, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 56, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 56, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 118
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 408' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 409/409/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -73, server RSSI -79 
+[WARN: RPL       ] Server Signal strengh is -79 
+[INFO: App       ] (client) Sending request 409 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 2, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 57, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 57, status 0, tx 2
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 120
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 409' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 410/410/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -73, server RSSI -80 
+[WARN: RPL       ] Server Signal strengh is -80 
+[INFO: App       ] (client) Sending request 410 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 3, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 58, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 58, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 122
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 410' from fd00::212:4b00:1204:cca2
+[WARN: TSCH      ] ! drop dup ll from 0012.4b00.1204.d486 seqno 122
+[WARN: App       ] Tx/Rx/MissedTx: 411/411/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -74, server RSSI -80 
+[WARN: RPL       ] Server Signal strengh is -80 
+[INFO: App       ] (client) Sending request 411 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 4, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 59, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 59, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 124
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 411' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 412/412/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -74, server RSSI -80 
+[WARN: RPL       ] Server Signal strengh is -80 
+[INFO: App       ] (client) Sending request 412 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 5, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 60, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 60, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 127
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 412' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 413/413/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -74, server RSSI -80 
+[WARN: RPL       ] Server Signal strengh is -80 
+[INFO: App       ] (client) Sending request 413 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 6, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 61, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 61, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 129
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 413' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 414/414/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -74, server RSSI -80 
+[WARN: RPL       ] Server Signal strengh is -80 
+[INFO: App       ] (client) Sending request 414 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 7, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 62, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 62, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 131
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 414' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 415/415/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -75, server RSSI -80 
+[WARN: RPL       ] Server Signal strengh is -80 
+[INFO: App       ] (client) Sending request 415 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 0, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 63, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 133
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 415' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 416/416/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -75, server RSSI -80 
+[WARN: RPL       ] Server Signal strengh is -80 
+[INFO: App       ] (client) Sending request 416 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 1, packet #0x20002a1c
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 64, queue 2/8 2/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 63, status 0, tx 4
+[INFO: TSCH Queue] update time source: 0012.4b00.1204.d486 -> 0012.4b00.1204.cca2
+[INFO: IPv6 Route] Removing default
+[INFO: IPv6 Route] Add default: adding default route to fe80::212:4b00:1204:cca2
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 64, status 0, tx 1
+[WARN: App       ] Tx/Rx/MissedTx: 417/416/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -80, server RSSI -80 
+[WARN: RPL       ] Signal strengh is -80, switching to relay 
+[WARN: RPL       ] prefered parent: fe80::212:4b00:1204:cca2  128,   134 =>   262 --  8 rbafp (last tx 1 min ago) 
+ with RSSI: -80 
+ with rank: 128 
+ acceptable: 1 
+, NUD: 0  
+[WARN: RPL       ] alternative parent found: fe80::212:4b00:1204:d486  288,   166 =>   454 -- 16   af  (last tx 0 min ago) 
+with RSSI: -75 
+ with rank: 288 
+ acceptable?: 1 
+,NUD: 0 
+[WARN: RPL       ] Changing parent to: fe80::212:4b00:1204:d486  288,   166 =>   454 -- 16   af  (last tx 0 min ago) 
+[INFO: TSCH Queue] update time source: 0012.4b00.1204.cca2 -> 0012.4b00.1204.d486
+[INFO: IPv6 Route] Removing default
+[INFO: IPv6 Route] Add default: adding default route to fe80::212:4b00:1204:d486
+[INFO: App       ] (client) Sending request 417 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 0, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 65, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 135
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 416' from fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 65, status 0, tx 2
+[INFO: TSCH Queue] update time source: 0012.4b00.1204.d486 -> 0012.4b00.1204.cca2
+[INFO: IPv6 Route] Removing default
+[INFO: IPv6 Route] Add default: adding default route to fe80::212:4b00:1204:cca2
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 137
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 417' from fd00::212:4b00:1204:cca2
+[WARN: TSCH      ] ! drop dup ll from 0012.4b00.1204.d486 seqno 137
+[WARN: App       ] Tx/Rx/MissedTx: 418/418/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -81, server RSSI -81 
+[WARN: RPL       ] Signal strengh is -81, switching to relay 
+[WARN: RPL       ] prefered parent: fe80::212:4b00:1204:cca2  128,   134 =>   262 --  8 rbafp (last tx 1 min ago) 
+ with RSSI: -81 
+ with rank: 128 
+ acceptable: 1 
+, NUD: 0  
+[WARN: RPL       ] alternative parent found: fe80::212:4b00:1204:d486  288,   175 =>   463 -- 16   af  (last tx 0 min ago) 
+with RSSI: -76 
+ with rank: 288 
+ acceptable?: 1 
+,NUD: 0 
+[WARN: RPL       ] Changing parent to: fe80::212:4b00:1204:d486  288,   175 =>   463 -- 16   af  (last tx 0 min ago) 
+[INFO: TSCH Queue] update time source: 0012.4b00.1204.cca2 -> 0012.4b00.1204.d486
+[INFO: IPv6 Route] Removing default
+[INFO: IPv6 Route] Add default: adding default route to fe80::212:4b00:1204:d486
+[INFO: App       ] (client) Sending request 418 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 1, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 66, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 66, status 0, tx 3
+[INFO: TSCH Queue] update time source: 0012.4b00.1204.d486 -> 0012.4b00.1204.cca2
+[INFO: IPv6 Route] Removing default
+[INFO: IPv6 Route] Add default: adding default route to fe80::212:4b00:1204:cca2
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 140
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 418' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 419/419/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -81, server RSSI -81 
+[WARN: RPL       ] Signal strengh is -81, switching to relay 
+[WARN: RPL       ] prefered parent: fe80::212:4b00:1204:cca2  128,   134 =>   262 --  8 rbafp (last tx 1 min ago) 
+ with RSSI: -81 
+ with rank: 128 
+ acceptable: 1 
+, NUD: 0  
+[WARN: RPL       ] alternative parent found: fe80::212:4b00:1204:d486  288,   195 =>   483 -- 16   af  (last tx 0 min ago) 
+with RSSI: -76 
+ with rank: 288 
+ acceptable?: 1 
+,NUD: 0 
+[WARN: RPL       ] Changing parent to: fe80::212:4b00:1204:d486  288,   195 =>   483 -- 16   af  (last tx 0 min ago) 
+[INFO: TSCH Queue] update time source: 0012.4b00.1204.cca2 -> 0012.4b00.1204.d486
+[INFO: IPv6 Route] Removing default
+[INFO: IPv6 Route] Add default: adding default route to fe80::212:4b00:1204:d486
+[INFO: App       ] (client) Sending request 419 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 2, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 67, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH Queue] update time source: 0012.4b00.1204.d486 -> 0012.4b00.1204.cca2
+[INFO: IPv6 Route] Removing default
+[INFO: IPv6 Route] Add default: adding default route to fe80::212:4b00:1204:cca2
+[INFO: ICMPv6    ] Sending ICMPv6 packet to fd00::212:4b00:1204:cca2, type 155, code 2, len 46
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 0, packet #0x20002a1c
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 68, queue 1/8 2/8, len 21 83
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 67, status 0, tx 2
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 142
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 419' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 420/420/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -81, server RSSI -81 
+[WARN: RPL       ] Signal strengh is -81, switching to relay 
+[WARN: RPL       ] prefered parent: fe80::212:4b00:1204:cca2  128,   134 =>   262 --  8 rbafp (last tx 1 min ago) 
+ with RSSI: -81 
+ with rank: 128 
+ acceptable: 1 
+, NUD: 0  
+[WARN: RPL       ] alternative parent found: fe80::212:4b00:1204:d486  288,   201 =>   489 -- 16   af  (last tx 0 min ago) 
+with RSSI: -76 
+ with rank: 288 
+ acceptable?: 1 
+,NUD: 0 
+[WARN: RPL       ] Changing parent to: fe80::212:4b00:1204:d486  288,   201 =>   489 -- 16   af  (last tx 0 min ago) 
+[INFO: TSCH Queue] update time source: 0012.4b00.1204.cca2 -> 0012.4b00.1204.d486
+[INFO: IPv6 Route] Removing default
+[INFO: IPv6 Route] Add default: adding default route to fe80::212:4b00:1204:d486
+[INFO: App       ] (client) Sending request 420 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 0, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 69, queue 1/8 2/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 69, status 0, tx 1
+[INFO: TSCH Queue] update time source: 0012.4b00.1204.d486 -> 0012.4b00.1204.cca2
+[INFO: IPv6 Route] Removing default
+[INFO: IPv6 Route] Add default: adding default route to fe80::212:4b00:1204:cca2
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 144
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 420' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 68, status 0, tx 8
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 145
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] icmpv6 input length 64 type: 155 
+[WARN: App       ] Tx/Rx/MissedTx: 421/421/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -81, server RSSI -81 
+[WARN: RPL       ] Signal strengh is -81, switching to relay 
+[WARN: RPL       ] prefered parent: fe80::212:4b00:1204:cca2  128,   223 =>   351 -- 16 rbafp (last tx 0 min ago) 
+ with RSSI: -81 
+ with rank: 128 
+ acceptable: 1 
+, NUD: 0  
+[WARN: RPL       ] alternative parent found: fe80::212:4b00:1204:d486  288,   193 =>   481 -- 16   af  (last tx 0 min ago) 
+with RSSI: -76 
+ with rank: 288 
+ acceptable?: 1 
+,NUD: 0 
+[WARN: RPL       ] Changing parent to: fe80::212:4b00:1204:d486  288,   193 =>   481 -- 16   af  (last tx 0 min ago) 
+[INFO: TSCH Queue] update time source: 0012.4b00.1204.cca2 -> 0012.4b00.1204.d486
+[INFO: IPv6 Route] Removing default
+[INFO: IPv6 Route] Add default: adding default route to fe80::212:4b00:1204:d486
+[INFO: App       ] (client) Sending request 421 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 0, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 70, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 70, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 147
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 421' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 422/422/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -76, server RSSI -81 
+[WARN: RPL       ] Server Signal strengh is -81 
+[INFO: App       ] (client) Sending request 422 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 1, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 71, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 71, status 0, tx 2
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 149
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 422' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 423/423/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -77, server RSSI -81 
+[WARN: RPL       ] Server Signal strengh is -81 
+[INFO: App       ] (client) Sending request 423 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 2, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 72, queue 0/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 72, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 152
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 423' from fd00::212:4b00:1204:cca2
+[INFO: ICMPv6    ] Sending ICMPv6 packet to fd00::212:4b00:1204:cca2, type 155, code 2, len 46
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 3, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 73, queue 1/8 1/8, len 21 91
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 73, status 0, tx 1
+[WARN: TSCH      ] ! drop dup ll from 0012.4b00.1204.d486 seqno 152
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 154
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] icmpv6 input length 64 type: 155 
+[WARN: App       ] Tx/Rx/MissedTx: 424/424/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -77, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 424 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 4, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 74, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 74, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 156
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 424' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 425/425/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -78, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 425 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 5, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 75, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 75, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 158
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 425' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 426/426/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -78, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 426 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 6, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 76, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 76, status 0, tx 1
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 160
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 426' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 427/427/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -79, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 427 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 7, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 77, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 77, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 162
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 427' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 428/428/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -79, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 428 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 0, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 78, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 78, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 164
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 428' from fd00::212:4b00:1204:cca2
+[WARN: TSCH      ] ! drop dup ll from 0012.4b00.1204.d486 seqno 164
+[WARN: App       ] Tx/Rx/MissedTx: 429/429/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -79, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 429 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 1, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 79, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 79, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 166
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 429' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 430/430/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -77, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 430 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 2, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 80, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 80, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 169
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 430' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 431/431/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -76, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 431 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 3, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 81, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 81, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 171
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 431' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 432/432/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -75, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 432 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 4, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 82, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 82, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 173
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 432' from fd00::212:4b00:1204:cca2
+[WARN: TSCH      ] ! drop dup ll from 0012.4b00.1204.d486 seqno 173
+[WARN: App       ] Tx/Rx/MissedTx: 433/433/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -75, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 433 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 5, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 83, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 83, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 175
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 433' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 434/434/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -75, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 434 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 6, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 84, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 84, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 177
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 434' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 435/435/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -74, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 435 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 7, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 85, queue 0/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 85, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 179
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 435' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 436/436/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -74, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 436 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 0, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 86, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 86, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 182
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 436' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 437/437/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -73, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 437 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 1, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 87, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 87, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 184
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 437' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 438/438/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -73, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 438 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 2, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 88, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 88, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 186
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 438' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 439/439/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -73, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 439 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 3, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 89, queue 0/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 89, status 0, tx 1
+[WARN: App       ] Tx/Rx/MissedTx: 440/439/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -73, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 440 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 4, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 90, queue 0/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 90, status 0, tx 1
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 190
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 439' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 441/440/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -72, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 441 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 5, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 91, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 91, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 192
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 440' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 442/441/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 442 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 6, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 92, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 92, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 194
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 441' from fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 195
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 442' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 443/443/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -66, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 443 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 7, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 93, queue 0/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 93, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 197
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 443' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 444/444/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -65, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 444 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 0, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 94, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 94, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 199
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 444' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 445/445/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -65, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 445 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 1, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 95, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 95, status 0, tx 2
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 202
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 445' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 446/446/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -65, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 446 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 2, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 96, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 96, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 204
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 446' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 447/447/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -65, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 447 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 3, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 97, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[WARN: App       ] Tx/Rx/MissedTx: 448/447/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -65, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 448 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 4, packet #0x20002a1c
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 98, queue 2/8 2/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 97, status 0, tx 5
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 449/447/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -65, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 449 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 5, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 99, queue 2/8 2/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 98, status 0, tx 5
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 99, status 0, tx 3
+[WARN: App       ] Tx/Rx/MissedTx: 450/447/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -65, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 450 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 6, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 100, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 100, status 0, tx 2
+[WARN: App       ] Tx/Rx/MissedTx: 451/447/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -65, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 451 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 7, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 101, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 101, status 0, tx 1
+[WARN: App       ] Tx/Rx/MissedTx: 452/447/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -65, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 452 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 0, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 102, queue 0/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 102, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 210
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 447' from fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 211
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 448' from fd00::212:4b00:1204:cca2
+[WARN: TSCH      ] ! drop dup ll from 0012.4b00.1204.d486 seqno 211
+[WARN: TSCH      ] ! drop dup ll from 0012.4b00.1204.d486 seqno 211
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 212
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 449' from fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 213
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 450' from fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 215
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 451' from fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 217
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 452' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 453/453/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -72, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 453 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 1, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 103, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 103, status 0, tx 2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 220
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 453' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 454/454/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -72, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 454 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 2, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 104, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 104, status 0, tx 1
+[WARN: App       ] Tx/Rx/MissedTx: 455/454/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -72, server RSSI -82 
+[WARN: RPL       ] Server Signal strengh is -82 
+[INFO: App       ] (client) Sending request 455 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 3, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 105, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 105, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 223
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 454' from fd00::212:4b00:1204:cca2
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 224
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 455' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 456/456/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -79 
+[WARN: RPL       ] Server Signal strengh is -79 
+[INFO: App       ] (client) Sending request 456 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 4, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 106, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 106, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 226
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 456' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 457/457/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -79 
+[WARN: RPL       ] Server Signal strengh is -79 
+[INFO: App       ] (client) Sending request 457 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 5, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 107, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 107, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 228
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 457' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 458/458/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -69, server RSSI -79 
+[WARN: RPL       ] Server Signal strengh is -79 
+[INFO: App       ] (client) Sending request 458 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 6, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 108, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 108, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 230
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 458' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 459/459/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -69, server RSSI -79 
+[WARN: RPL       ] Server Signal strengh is -79 
+[INFO: App       ] (client) Sending request 459 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 7, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 109, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 109, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 232
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 459' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 460/460/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -69, server RSSI -79 
+[WARN: RPL       ] Server Signal strengh is -79 
+[INFO: App       ] (client) Sending request 460 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 0, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 110, queue 0/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 110, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 235
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 460' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 461/461/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -69, server RSSI -79 
+[WARN: RPL       ] Server Signal strengh is -79 
+[INFO: App       ] (client) Sending request 461 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 1, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 111, queue 0/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 111, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 237
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 461' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 462/462/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -69, server RSSI -79 
+[WARN: RPL       ] Server Signal strengh is -79 
+[INFO: App       ] (client) Sending request 462 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 2, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 112, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 112, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 239
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 462' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 463/463/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -69, server RSSI -76 
+[WARN: RPL       ] Server Signal strengh is -76 
+[INFO: App       ] (client) Sending request 463 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 3, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 113, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 113, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 241
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 463' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 464/464/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -69, server RSSI -76 
+[WARN: RPL       ] Server Signal strengh is -76 
+[INFO: App       ] (client) Sending request 464 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 4, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 114, queue 0/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 114, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 243
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 464' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 465/465/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -70, server RSSI -76 
+[WARN: RPL       ] Server Signal strengh is -76 
+[INFO: App       ] (client) Sending request 465 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 5, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 115, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 115, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 246
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 465' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 466/466/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -70, server RSSI -76 
+[WARN: RPL       ] Server Signal strengh is -76 
+[INFO: App       ] (client) Sending request 466 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 6, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 116, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 116, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 248
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 466' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 467/467/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -70, server RSSI -76 
+[WARN: RPL       ] Server Signal strengh is -76 
+[INFO: App       ] (client) Sending request 467 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 7, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 117, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 117, status 0, tx 2
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 250
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 467' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 468/468/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -70, server RSSI -76 
+[WARN: RPL       ] Server Signal strengh is -76 
+[INFO: App       ] (client) Sending request 468 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 0, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 118, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 118, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 252
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 468' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 469/469/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -70, server RSSI -76 
+[WARN: RPL       ] Server Signal strengh is -76 
+[INFO: App       ] (client) Sending request 469 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 1, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 119, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 119, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 254
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 469' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 470/470/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -70, server RSSI -76 
+[WARN: RPL       ] Server Signal strengh is -76 
+[INFO: App       ] (client) Sending request 470 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 2, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 120, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 120, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 1
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 470' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 471/471/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -70, server RSSI -74 
+[WARN: RPL       ] Server Signal strengh is -74 
+[INFO: App       ] (client) Sending request 471 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 3, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 121, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 121, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 3
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 471' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 472/472/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -74 
+[WARN: RPL       ] Server Signal strengh is -74 
+[INFO: App       ] (client) Sending request 472 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 4, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 122, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 122, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 5
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 472' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 473/473/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -74 
+[WARN: RPL       ] Server Signal strengh is -74 
+[INFO: App       ] (client) Sending request 473 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 5, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 123, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 123, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 7
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 473' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 474/474/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -74 
+[WARN: RPL       ] Server Signal strengh is -74 
+[INFO: App       ] (client) Sending request 474 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 6, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 124, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 124, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 9
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 474' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 475/475/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -74 
+[WARN: RPL       ] Server Signal strengh is -74 
+[INFO: App       ] (client) Sending request 475 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 7, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 125, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 125, status 0, tx 2
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 12
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 475' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 476/476/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -74 
+[WARN: RPL       ] Server Signal strengh is -74 
+[INFO: App       ] (client) Sending request 476 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 0, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 126, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 126, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 14
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 476' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 477/477/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -74 
+[WARN: RPL       ] Server Signal strengh is -74 
+[INFO: App       ] (client) Sending request 477 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 1, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 127, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 127, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 16
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 477' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 478/478/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -72 
+[WARN: RPL       ] Server Signal strengh is -72 
+[INFO: App       ] (client) Sending request 478 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 2, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 128, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 128, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 18
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 478' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 479/479/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -72 
+[WARN: RPL       ] Server Signal strengh is -72 
+[INFO: App       ] (client) Sending request 479 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 3, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 129, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 129, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 20
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 479' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 480/480/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -72 
+[WARN: RPL       ] Server Signal strengh is -72 
+[INFO: App       ] (client) Sending request 480 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 4, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 130, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 130, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 23
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 480' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 481/481/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -72 
+[WARN: RPL       ] Server Signal strengh is -72 
+[INFO: App       ] (client) Sending request 481 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 5, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 131, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 131, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 26
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 481' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 482/482/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -72 
+[WARN: RPL       ] Server Signal strengh is -72 
+[INFO: App       ] (client) Sending request 482 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 6, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 132, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 132, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 28
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 482' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 483/483/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -72 
+[WARN: RPL       ] Server Signal strengh is -72 
+[INFO: App       ] (client) Sending request 483 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 7, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 133, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 133, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 30
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 483' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 484/484/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -72 
+[WARN: RPL       ] Server Signal strengh is -72 
+[INFO: App       ] (client) Sending request 484 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 0, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 134, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 134, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 32
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 484' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 485/485/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -70 
+[WARN: RPL       ] Server Signal strengh is -70 
+[INFO: App       ] (client) Sending request 485 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 1, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 135, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 135, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 35
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 485' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 486/486/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -70 
+[WARN: RPL       ] Server Signal strengh is -70 
+[INFO: App       ] (client) Sending request 486 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 2, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 136, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 136, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 37
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 486' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 487/487/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -70 
+[WARN: RPL       ] Server Signal strengh is -70 
+[INFO: App       ] (client) Sending request 487 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 3, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 137, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 137, status 0, tx 2
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 39
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 487' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 488/488/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -70 
+[WARN: RPL       ] Server Signal strengh is -70 
+[INFO: App       ] (client) Sending request 488 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 4, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 138, queue 0/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 138, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 41
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 488' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 489/489/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -70 
+[WARN: RPL       ] Server Signal strengh is -70 
+[INFO: App       ] (client) Sending request 489 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 5, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 139, queue 0/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 139, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 44
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 489' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 490/490/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -70 
+[WARN: RPL       ] Server Signal strengh is -70 
+[INFO: App       ] (client) Sending request 490 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 6, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 140, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 140, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 46
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 490' from fd00::212:4b00:1204:cca2
+[WARN: TSCH      ] ! drop dup ll from 0012.4b00.1204.d486 seqno 46
+[WARN: App       ] Tx/Rx/MissedTx: 491/491/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -70 
+[WARN: RPL       ] Server Signal strengh is -70 
+[INFO: App       ] (client) Sending request 491 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 7, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 141, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 141, status 0, tx 2
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 48
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 491' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 492/492/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -68 
+[WARN: RPL       ] Server Signal strengh is -68 
+[INFO: App       ] (client) Sending request 492 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 0, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 142, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 142, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 50
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 492' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 493/493/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -68 
+[WARN: RPL       ] Server Signal strengh is -68 
+[INFO: App       ] (client) Sending request 493 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 1, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 143, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 143, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 53
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 493' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 494/494/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -68 
+[WARN: RPL       ] Server Signal strengh is -68 
+[INFO: App       ] (client) Sending request 494 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 2, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 144, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 144, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 55
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 494' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 495/495/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -68 
+[WARN: RPL       ] Server Signal strengh is -68 
+[INFO: App       ] (client) Sending request 495 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 3, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 145, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 145, status 0, tx 1
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 57
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 495' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 496/496/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -68 
+[WARN: RPL       ] Server Signal strengh is -68 
+[INFO: App       ] (client) Sending request 496 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 4, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 146, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 146, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 59
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 496' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 497/497/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -71, server RSSI -68 
+[WARN: RPL       ] Server Signal strengh is -68 
+[INFO: App       ] (client) Sending request 497 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 5, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 147, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 147, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 61
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 497' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 498/498/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -72, server RSSI -68 
+[WARN: RPL       ] Server Signal strengh is -68 
+[INFO: App       ] (client) Sending request 498 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:d486
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:d486
+[DBG : TSCH Queue] packet is added put_index 6, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.d486 with seqno 148, queue 1/8 1/8, len 21 65
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.d486, seqno 148, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 63
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 498' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 499/499/0
+[WARN: RPL       ] relay inactive?: 0,parent RSSI: -72, server RSSI -66 
+[WARN: RPL       ] Server Signal strengh is -66 
+[WARN: RPL       ] switching back to Server 
+[INFO: TSCH Queue] update time source: 0012.4b00.1204.d486 -> 0012.4b00.1204.cca2
+[INFO: IPv6 Route] Removing default
+[INFO: IPv6 Route] Add default: adding default route to fe80::212:4b00:1204:cca2
+[INFO: App       ] (client) Sending request 499 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 0, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 149, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 149, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.d486 with seqno 65
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 499' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[INFO: ICMPv6    ] Sending ICMPv6 packet to fd00::212:4b00:1204:cca2, type 155, code 2, len 46
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 1, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 150, queue 1/8 1/8, len 21 83
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 150, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 144
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] icmpv6 input length 56 type: 155 
+[WARN: App       ] Tx/Rx/MissedTx: 500/500/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -64, server RSSI -64 
+[WARN: RPL       ] Signal strengh is -64, Send Drone 
+[INFO: App       ] (client) Sending request 500 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 2, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 151, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 151, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 145
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 500' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 501/501/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -63, server RSSI -63 
+[WARN: RPL       ] Signal strengh is -63, Send Drone 
+[INFO: App       ] (client) Sending request 501 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 3, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 152, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 152, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 146
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 501' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 502/502/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -62, server RSSI -62 
+[WARN: RPL       ] Signal strengh is -62, Send Drone 
+[INFO: App       ] (client) Sending request 502 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 4, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 153, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 153, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 147
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 502' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 503/503/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -61, server RSSI -61 
+[WARN: RPL       ] Signal strengh is -61, Send Drone 
+[INFO: App       ] (client) Sending request 503 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 5, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 154, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 154, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 149
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 503' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 504/504/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -60, server RSSI -60 
+[WARN: RPL       ] Signal strengh is -60, Send Drone 
+[INFO: App       ] (client) Sending request 504 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 6, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 155, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 155, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 150
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 504' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 505/505/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -58, server RSSI -58 
+[WARN: RPL       ] Signal strengh is -58, Send Drone 
+[INFO: App       ] (client) Sending request 505 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 7, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 156, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 156, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 151
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 505' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 506/506/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -58, server RSSI -58 
+[WARN: RPL       ] Signal strengh is -58, Send Drone 
+[INFO: App       ] (client) Sending request 506 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 0, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 157, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 157, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 152
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 506' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 507/507/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -57, server RSSI -57 
+[WARN: RPL       ] Signal strengh is -57, Send Drone 
+[INFO: App       ] (client) Sending request 507 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 1, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 158, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 158, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 153
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 507' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 508/508/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -57, server RSSI -57 
+[WARN: RPL       ] Signal strengh is -57, Send Drone 
+[INFO: App       ] (client) Sending request 508 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 2, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 159, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 159, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 154
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 508' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 509/509/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -56, server RSSI -56 
+[WARN: RPL       ] Signal strengh is -56, Send Drone 
+[INFO: App       ] (client) Sending request 509 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 3, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 160, queue 0/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 160, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 156
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 509' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 510/510/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -55, server RSSI -55 
+[INFO: App       ] (client) Sending request 510 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 4, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 161, queue 0/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 161, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 157
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 510' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 511/511/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -53, server RSSI -53 
+[INFO: App       ] (client) Sending request 511 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 5, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 162, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 162, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 158
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 511' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 512/512/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -52, server RSSI -52 
+[INFO: App       ] (client) Sending request 512 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 6, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 163, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 163, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 159
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 512' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 513/513/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -51, server RSSI -51 
+[INFO: App       ] (client) Sending request 513 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 7, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 164, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 164, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 160
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 513' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 514/514/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -50, server RSSI -50 
+[INFO: App       ] (client) Sending request 514 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 0, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 165, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 165, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 162
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 514' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 515/515/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -50, server RSSI -50 
+[INFO: App       ] (client) Sending request 515 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 1, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 166, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 166, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 163
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 515' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 516/516/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -50, server RSSI -50 
+[INFO: App       ] (client) Sending request 516 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 2, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 167, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 167, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 164
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 516' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 517/517/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -50, server RSSI -50 
+[INFO: App       ] (client) Sending request 517 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 3, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 168, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 168, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 165
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 517' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 518/518/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -50, server RSSI -50 
+[INFO: App       ] (client) Sending request 518 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 4, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 169, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 169, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 167
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 518' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 519/519/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -50, server RSSI -50 
+[INFO: App       ] (client) Sending request 519 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 5, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 170, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 170, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 168
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 519' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 520/520/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -50, server RSSI -50 
+[INFO: App       ] (client) Sending request 520 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 6, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 171, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 171, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 169
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 520' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 521/521/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -51, server RSSI -51 
+[INFO: App       ] (client) Sending request 521 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 7, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 172, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 172, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 170
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 521' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 522/522/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -51, server RSSI -51 
+[INFO: App       ] (client) Sending request 522 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 0, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 173, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 173, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 171
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 522' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 523/523/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -51, server RSSI -51 
+[INFO: App       ] (client) Sending request 523 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 1, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 174, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 174, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 173
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 523' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 524/524/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -51, server RSSI -51 
+[INFO: App       ] (client) Sending request 524 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 2, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 175, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 175, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 174
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 524' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 525/525/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -51, server RSSI -51 
+[INFO: App       ] (client) Sending request 525 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 3, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 176, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 176, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 175
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 525' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 526/526/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -50, server RSSI -50 
+[INFO: App       ] (client) Sending request 526 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 4, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 177, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 177, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 176
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 526' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 527/527/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -49, server RSSI -49 
+[INFO: App       ] (client) Sending request 527 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 5, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 178, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 178, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 177
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 527' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 528/528/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -50, server RSSI -50 
+[INFO: App       ] (client) Sending request 528 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 6, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 179, queue 0/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 179, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 178
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 528' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 529/529/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -50, server RSSI -50 
+[INFO: App       ] (client) Sending request 529 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 7, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 180, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 180, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 179
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 529' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 530/530/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -50, server RSSI -50 
+[INFO: App       ] (client) Sending request 530 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 0, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 181, queue 0/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 181, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 181
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 530' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 531/531/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -50, server RSSI -50 
+[INFO: App       ] (client) Sending request 531 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 1, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 182, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 182, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 182
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 531' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 532/532/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -50, server RSSI -50 
+[INFO: App       ] (client) Sending request 532 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 2, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 183, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 183, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 183
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 532' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 533/533/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -50, server RSSI -50 
+[INFO: App       ] (client) Sending request 533 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 3, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 184, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 184, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 184
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 533' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 534/534/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -50, server RSSI -50 
+[INFO: App       ] (client) Sending request 534 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 4, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 185, queue 0/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 185, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 186
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 534' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 535/535/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -49, server RSSI -49 
+[INFO: App       ] (client) Sending request 535 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 5, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 186, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 186, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 187
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 535' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 536/536/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -49, server RSSI -49 
+[INFO: App       ] (client) Sending request 536 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 6, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 187, queue 0/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 187, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 188
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 536' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 537/537/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -49, server RSSI -49 
+[INFO: App       ] (client) Sending request 537 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 7, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 188, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 188, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 189
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 537' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 538/538/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -49, server RSSI -49 
+[INFO: App       ] (client) Sending request 538 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 0, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 189, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 189, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 190
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 538' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 539/539/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -49, server RSSI -49 
+[INFO: App       ] (client) Sending request 539 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 1, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 190, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 190, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 192
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 539' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 540/540/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -49, server RSSI -49 
+[INFO: App       ] (client) Sending request 540 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 2, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 191, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 191, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 193
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 540' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 541/541/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -49, server RSSI -49 
+[INFO: App       ] (client) Sending request 541 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 3, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 192, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 192, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 194
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 541' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 542/542/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -49, server RSSI -49 
+[INFO: App       ] (client) Sending request 542 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 4, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 193, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 193, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 195
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 542' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 543/543/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -49, server RSSI -49 
+[INFO: App       ] (client) Sending request 543 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 5, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 194, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 194, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 196
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 543' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 544/544/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -49, server RSSI -49 
+[INFO: App       ] (client) Sending request 544 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 6, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 195, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 195, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 198
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 544' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 545/545/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -49, server RSSI -49 
+[INFO: App       ] (client) Sending request 545 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 7, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 196, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 196, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 199
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 545' from fd00::212:4b00:1204:cca2
+[DBG : TSCH      ] skip sending EB: in the leaf mode
+[WARN: App       ] Tx/Rx/MissedTx: 546/546/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -49, server RSSI -49 
+[INFO: App       ] (client) Sending request 546 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 0, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 197, queue 1/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 197, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 200
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 546' from fd00::212:4b00:1204:cca2
+[WARN: App       ] Tx/Rx/MissedTx: 547/547/0
+[WARN: RPL       ] relay inactive?: 1,parent RSSI: -49, server RSSI -49 
+[INFO: App       ] (client) Sending request 547 to fd00::212:4b00:1204:cca2
+[INFO: IPv6      ] Sending packet with length 66 (26)
+[INFO: IPv6 Route] Default route, IP address fe80::212:4b00:1204:cca2
+[INFO: IPv6 Route] Default route found, IP address fe80::212:4b00:1204:cca2
+[DBG : TSCH Queue] packet is added put_index 1, packet #0x20002a08
+[INFO: TSCH      ] send packet to 0012.4b00.1204.cca2 with seqno 198, queue 0/8 1/8, len 21 57
+[INFO: App       ] Radio signal strength: -12 
+[INFO: TSCH      ] packet sent to 0012.4b00.1204.cca2, seqno 198, status 0, tx 1
+[INFO: TSCH      ] received from 0012.4b00.1204.cca2 with seqno 201
+[INFO: IPv6      ] packet received from fd00::212:4b00:1204:cca2 to fd00::212:4b00:f8e:2580
+[INFO: IPv6      ] Receiving UDP packet
+[INFO: App       ] Received response '(client) hello 547' from fd00::212:4b00:1204:cca2
+
+

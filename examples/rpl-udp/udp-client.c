@@ -76,7 +76,7 @@ PROCESS_THREAD(udp_client_process, ev, data) {
             if (tx_count % 1 == 0) {
                 LOG_WARN("Tx/Rx/MissedTx: %" PRIu32 "/%" PRIu32 "/%" PRIu32 "\n",
                          tx_count, rx_count, missed_tx_count);
-                automatic_relay_switch()
+                automatic_relay_switch();
             }
             /* Send to DAG root */
             LOG_INFO("(client) Sending request %" PRIu32 " to ", tx_count);
