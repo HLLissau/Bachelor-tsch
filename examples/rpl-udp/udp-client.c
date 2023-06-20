@@ -34,12 +34,12 @@ udp_rx_callback(struct simple_udp_connection *c,
                 uint16_t receiver_port,
                 const uint8_t *data,
                 uint16_t datalen) {
-    LOG_INFO("Received response '%.*s' from ", datalen, (char *)data);
-    LOG_INFO_6ADDR(sender_addr);
+    //LOG_INFO("Received response '%.*s' from ", datalen, (char *)data);
+    //LOG_INFO_6ADDR(sender_addr);
 #if LLSEC802154_CONF_ENABLED
     LOG_INFO_(" LLSEC LV:%d", uipbuf_get_attr(UIPBUF_ATTR_LLSEC_LEVEL));
 #endif
-    LOG_INFO_("\n");
+    //LOG_INFO_("\n");
     rx_count++;
 }
 
@@ -73,15 +73,16 @@ PROCESS_THREAD(udp_client_process, ev, data) {
         if (NETSTACK_ROUTING.node_is_reachable() &&
             NETSTACK_ROUTING.get_root_ipaddr(&dest_ipaddr)) {
             /* Print statistics every 10th TX (Changed to 1  ) */ 
-            if (tx_count % 1 == 0) {
+            automatic_relay_switch();
+            if (tx_count % 10 == 0) {
                 LOG_WARN("Tx/Rx/MissedTx: %" PRIu32 "/%" PRIu32 "/%" PRIu32 "\n",
                          tx_count, rx_count, missed_tx_count);
-                automatic_relay_switch();
+                
             }
             /* Send to DAG root */
-            LOG_INFO("(client) Sending request %" PRIu32 " to ", tx_count);
-            LOG_INFO_6ADDR(&dest_ipaddr);
-            LOG_INFO_("\n");
+            //LOG_INFO("(client) Sending request %" PRIu32 " to ", tx_count);
+            //LOG_INFO_6ADDR(&dest_ipaddr);
+            //LOG_INFO_("\n");
             snprintf(str, sizeof(str), "(client) hello %" PRIu32 "", tx_count);
             simple_udp_sendto(&udp_conn, str, strlen(str), &dest_ipaddr);
             tx_count++;
@@ -95,7 +96,7 @@ PROCESS_THREAD(udp_client_process, ev, data) {
         radio_value_t power_level;
         NETSTACK_RADIO.get_value(RADIO_PARAM_TXPOWER, &power_level);
         /*Print current value of radio signal strength*/
-         LOG_INFO("Radio signal strength: %d \n",power_level);
+        // LOG_INFO("Radio signal strength: %d \n",power_level);
 
         /* Add some jitter */
         etimer_set(&periodic_timer, SEND_INTERVAL - CLOCK_SECOND + (random_rand() % (2 * CLOCK_SECOND)));

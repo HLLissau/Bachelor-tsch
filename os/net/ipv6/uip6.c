@@ -1174,13 +1174,13 @@ uip_process(uint8_t flag)
   }
   /* Set uip_ext_len */
   uip_ext_len = last_header - UIP_IP_PAYLOAD(0);
-
+  /*
   LOG_INFO("packet received from ");
   LOG_INFO_6ADDR(&UIP_IP_BUF->srcipaddr);
   LOG_INFO_(" to ");
   LOG_INFO_6ADDR(&UIP_IP_BUF->destipaddr);
   LOG_INFO_("\n");
-
+  */
   if(uip_is_addr_mcast(&UIP_IP_BUF->srcipaddr)){
     UIP_STAT(++uip_stat.ip.drop);
     LOG_ERR("Dropping packet, src is mcast\n");
@@ -1495,7 +1495,7 @@ uip_process(uint8_t flag)
 
   uip_remove_ext_hdr();
 
-  LOG_INFO("Receiving UDP packet\n");
+  //LOG_INFO("Receiving UDP packet\n");
 
   /* UDP processing is really just a hack. We don't do anything to the
      UDP/IP headers, but let the UDP application do all the hard
@@ -2329,7 +2329,7 @@ uip_process(uint8_t flag)
 #endif
   UIP_IP_BUF->flow = 0x00;
   send:
-  LOG_INFO("Sending packet with length %d (%d)\n", uip_len, uipbuf_get_len_field(UIP_IP_BUF));
+  //LOG_INFO("Sending packet with length %d (%d)\n", uip_len, uipbuf_get_len_field(UIP_IP_BUF));
 
   UIP_STAT(++uip_stat.ip.sent);
   /* Return and let the caller do the actual transmission. */

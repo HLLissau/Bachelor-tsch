@@ -722,9 +722,9 @@ uip_ds6_defrt_choose(void)
   for(d = list_head(defaultrouterlist);
       d != NULL;
       d = list_item_next(d)) {
-    LOG_INFO("Default route, IP address ");
-    LOG_INFO_6ADDR(&d->ipaddr);
-    LOG_INFO_("\n");
+    //LOG_INFO("Default route, IP address ");
+    //LOG_INFO_6ADDR(&d->ipaddr);
+    //LOG_INFO_("\n");
     bestnbr = uip_ds6_nbr_lookup(&d->ipaddr);
     if(bestnbr != NULL && bestnbr->state != NBR_INCOMPLETE) {
       LOG_INFO("Default route found, IP address ");
